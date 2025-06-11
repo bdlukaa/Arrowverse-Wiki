@@ -6,8 +6,8 @@ body {
 }
 
 .login-body {
-  background: url("https://static.wikia.nocookie.net/arrow/images/7/73/Entertainment_Weekly_cover_shoot_-_Batwoman%2C_Green_Arrow%2C_The_Flash%2C_Supergirl_and_White_Canary.png/revision/latest/scale-to-width-down/1000?cb=20190718024158") no-repeat center
-    center fixed;
+  background: url("https://static.wikia.nocookie.net/arrow/images/7/73/Entertainment_Weekly_cover_shoot_-_Batwoman%2C_Green_Arrow%2C_The_Flash%2C_Supergirl_and_White_Canary.png/revision/latest/scale-to-width-down/1000?cb=20190718024158")
+    no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -59,4 +59,12 @@ body {
 .accordion-button:not(.collapsed) {
   background-color: #343a40;
   color: white;
+}
+
+.curiosidade-item {
+  background-color: transparent;
+  border: 0;
+  border-left: 4px solid #004422;
+  margin-bottom: 1rem;
+  padding-left: 1.25rem;
 }

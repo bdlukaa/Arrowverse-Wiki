@@ -1,270 +1,10 @@
-// const arrow_markdown = `
-// <div class="container mt-5">
-//   <div class="text-center mb-4">
-//     <blockquote class="blockquote">
-//       <p>"Você, Harper, Sara, a aberração de Central City, a Caçadora; tenho um cara novo voando pela cidade. Todas essas máscaras? Começaram com ele."</p>
-//       <footer class="blockquote-footer">Quentin Lance para Laurel Lance</footer>
-//     </blockquote>
-//     <img src="images/arrow1.png" class="img-fluid" alt="Arrow" />
-//   </div>
-
-//   <div class="mb-5">
-//     <h2>Sinopse</h2>
-//     <p>
-
-//     </p>
-//     <p>
-
-//     </p>
-//     <p>
-//       No entanto, o pai de Laurel, o detetive Quentin Lance, está determinado a prender o Arqueiro por operar em sua cidade. Enquanto isso, a própria mãe de Oliver, Moira, sabe muito mais sobre o naufrágio mortal do que deixa transparecer e
-//       é mais implacável do que ele jamais poderia imaginar.
-//     </p>
-//   </div>
-
-//   <div class="mb-5">
-//     <h2>Elenco</h2>
-//     <div class="row row-cols-1 row-cols-md-3 g-4">
-//       <!-- Cast Card -->
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/stephen_amell.png" class="card-img-top" alt="Stephen Amell" />
-//           <div class="card-body">
-//             <h5 class="card-title">Stephen Amell</h5>
-//             <p class="card-text">Oliver Queen - O Arqueiro Verde: O playboy bilionário que se torna o Arqueiro Verde.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/katie_cassidy.png" class="card-img-top" alt="Katie Cassidy" />
-//           <div class="card-body">
-//             <h5 class="card-title">Katie Cassidy</h5>
-//             <p class="card-text">Laurel Lance - Canário Negro: A ex-namorada de Oliver e uma lutadora.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/caity_lotz.png" class="card-img-top" alt="Caity Lotz" />
-//           <div class="card-body">
-//             <h5 class="card-title">Caity Lotz</h5>
-//             <p class="card-text">Caity Lotz</p>
-//             <p class="card-text">Canário Negro/Canário Branco</p>
-//             <p class="card-text">Irmã de Laurel Lance.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/colin_donnell.png" class="card-img-top" alt="Colin Donnell" />
-//           <div class="card-body">
-//             <h5 class="card-title">Colin Donnell</h5>
-//             <p class="card-text">Tommy Merlyn: Melhor amigo de Oliver e herdeiro da fortuna Merlyn.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/david_ramsey.png" class="card-img-top" alt="David Ramsey" />
-//           <div class="card-body">
-//             <h5 class="card-title">David Ramsey</h5>
-//             <p class="card-text">John Diggle - Spartan: O fiel amigo e guarda-costas de Oliver.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/willa_holland.png" class="card-img-top" alt="Willa Holland" />
-//           <div class="card-body">
-//             <h5 class="card-title">Willa Holland</h5>
-//             <p class="card-text">Thea Queen - Speedy: Irmã de Oliver e uma lutadora habilidosa.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/susanna_thompson.png" class="card-img-top" alt="Susanna Thompson" />
-//           <div class="card-body">
-//             <h5 class="card-title">Susanna Thompson</h5>
-//             <p class="card-text">Moira Queen: Mãe de Oliver e Thea, com segredos obscuros.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/paul_blackthorne.png" class="card-img-top" alt="Paul Blackthorne" />
-//           <div class="card-body">
-//             <h5 class="card-title">Paul Blackthorne</h5>
-//             <p class="card-text">Quentin Lance: Detetive determinado a prender o Arqueiro.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/emily_bett_rickards.png" class="card-img-top" alt="Emily Bett Rickards" />
-//           <div class="card-body">
-//             <h5 class="card-title">Emily Bett Rickards</h5>
-//             <p class="card-text">Felicity Smoak - Overwatch: Gênio da tecnologia e interesse amoroso de Oliver.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/colton_haynes.png" class="card-img-top" alt="Colton Haynes" />
-//           <div class="card-body">
-//             <h5 class="card-title">Colton Haynes</h5>
-//             <p class="card-text">Roy Harper - Arsenal: Um aliado de Oliver com um passado complicado.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/manu_bennett.png" class="card-img-top" alt="Manu Bennett" />
-//           <div class="card-body">
-//             <h5 class="card-title">Manu Bennett</h5>
-//             <p class="card-text">Slade Wilson - Deathstroke: Um dos maiores inimigos de Oliver.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/john_barrowman.png" class="card-img-top" alt="John Barrowman" />
-//           <div class="card-body">
-//             <h5 class="card-title">John Barrowman</h5>
-//             <p class="card-text">Malcolm Merlyn - Dark Archer: Antagonista e pai de Tommy.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/echo_kellum.png" class="card-img-top" alt="Echo Kellum" />
-//           <div class="card-body">
-//             <h5 class="card-title">Echo Kellum</h5>
-//             <p class="card-text">Curtis Holt - Mr. Terrific: Um aliado tecnológico de Oliver.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/josh_segarra.png" class="card-img-top" alt="Josh Segarra" />
-//           <div class="card-body">
-//             <h5 class="card-title">Josh Segarra</h5>
-//             <p class="card-text">Simon Morrison - Prometheus: Um vilão que busca vingança.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/rick_gonzalez.png" class="card-img-top" alt="Rick Gonzalez" />
-//           <div class="card-body">
-//             <h5 class="card-title">Rick Gonzalez</h5>
-//             <p class="card-text">Rene Ramirez - Wild Dog: Um vigilante com um passado conturbado.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/juliana_harkavy.png" class="card-img-top" alt="Juliana Harkavy" />
-//           <div class="card-body">
-//             <h5 class="card-title">Juliana Harkavy</h5>
-//             <p class="card-text">Dinah Drake - Canário Negro: Uma lutadora e aliada de Oliver.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/kirk_acevedo.png" class="card-img-top" alt="Kirk Acevedo" />
-//           <div class="card-body">
-//             <h5 class="card-title">Kirk Acevedo</h5>
-//             <p class="card-text">Ricardo Diaz - Dragon: Um vilão que busca controle sobre Star City.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/sea_shimooka.png" class="card-img-top" alt="Sea Shimooka" />
-//           <div class="card-body">
-//             <h5 class="card-title">Sea Shimooka</h5>
-//             <p class="card-text">Emiko Adachi - Green Arrow: A irmã de Oliver que assume o manto.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/katherine_mcnamara.png" class="card-img-top" alt="Katherine McNamara" />
-//           <div class="card-body">
-//             <h5 class="card-title">Katherine McNamara</h5>
-//             <p class="card-text">Mia Queen - Blackstar: A filha de Oliver e Felicity.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/ben_lewis.png" class="card-img-top" alt="Ben Lewis" />
-//           <div class="card-body">
-//             <h5 class="card-title">Ben Lewis</h5>
-//             <p class="card-text">William Clayton: O filho de Oliver e Felicity.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/joseph_david_jones.png" class="card-img-top" alt="Joseph David-Jones" />
-//           <div class="card-body">
-//             <h5 class="card-title">Joseph David-Jones</h5>
-//             <p class="card-text">Connor Hawke: Um herói que assume o manto do Arqueiro Verde.</p>
-//           </div>
-//         </div>
-//       </div>
-//       <div class="col">
-//         <div class="card h-100">
-//           <img src="images/lamonica_garrett.png" class="card-img-top" alt="LaMonica Garrett" />
-//           <div class="card-body">
-//             <h5 class="card-title">LaMonica Garrett</h5>
-//             <p class="card-text">Mar Novu - The Monitor: Um ser cósmico que observa o multiverso.</p>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   </div>
-
-//   <div class="mb-5">
-//     <h2>Curiosidades</h2>
-//     <ul>
-//       <li>A série foi originalmente apresentada como The Hunter.</li>
-//       <li>Arrow teve uma websérie suplementar, Blood Rush, e três séries suplementares de quadrinhos...</li>
-//       <li>Os atores com maior número de participações são:</li>
-//       <ul>
-//         <li>Stephen Amell (Oliver Queen) - 169 episódios</li>
-//         <li>David Ramsey (John Diggle) - 166 episódios</li>
-//       </ul>
-//     </ul>
-//   </div>
-// </div>
-
-// `;
-
-// const flash_markdown = `
-// "The Flash. The fastest man alive."
-// —Barry Allen
-
-// ## Synopsis
-
-// Barry Allen was just an ordinary forensic scientist until a freak accident involving a particle accelerator gave him the power of super-speed. Now, he uses his abilities to protect Central City from metahuman threats and other villains. With the help of his friends at S.T.A.R. Labs, Barry learns to harness his powers and becomes the superhero known as The Flash. As he battles various foes, he also seeks to uncover the truth behind his mother's murder and the mysterious man in the yellow suit who killed her.
-// `;
-
-// const markdownMap = {
-//   "#arrow": arrow_markdown,
-//   "#flash": flash_markdown,
-// };
-
 const heroMap = {
   "": {
     quote: "You don't have to be perfect to be a hero.",
     "quote-author": "Sara Lance",
     // "main-image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/crisis-on-infinite-earths-arrowverse-poster-cropped.jpg?q=70&fit=contain&w=1200&h=628&dpr=1",
-    "main-image": "https://static.wikia.nocookie.net/arrow/images/7/73/Entertainment_Weekly_cover_shoot_-_Batwoman%2C_Green_Arrow%2C_The_Flash%2C_Supergirl_and_White_Canary.png/revision/latest/scale-to-width-down/1000?cb=20190718024158",
+    "main-image":
+      "https://static.wikia.nocookie.net/arrow/images/7/73/Entertainment_Weekly_cover_shoot_-_Batwoman%2C_Green_Arrow%2C_The_Flash%2C_Supergirl_and_White_Canary.png/revision/latest/scale-to-width-down/1000?cb=20190718024158",
     sinopse: `O "Arrowverse" é uma franquia de televisão baseada em personagens que aparecem em publicações da DC Comics. O multiverso compartilhado é semelhante ao universo DC em suas histórias em quadrinhos, que teve elementos de enredo, cenários e personagens crossover.
 \n
 A franquia começou em Arrow, baseado no personagem Arqueiro Verde, que estreou em 10 de outubro de 2012. Seguiu-se em The Flash em 2014, e na websérie animada Vixen em 2015. Matt Ryan reprisou seu papel como John Constantine da série em live-action Constantine do canal NBC de 2014 em aparições como convidado em episódio de Arrow e Legends of Tomorrow, antes de se tornar um personagem regular, na última, além de continuar as histórias da série anterior. A franquia foi expandida ainda mais em 2016, quando em janeiro de naquele ano, uma nova série intitulada Legends of Tomorrow foi lançada, estrelando personagens que originalmente apareceram em Arrow e The Flash. Mais tarde naquele ano, a série Supergirl da CBS, já tendo um crossover com The Flash, foi transferida para a The CW para sua segunda temporada, onde permaneceu desde então.
@@ -275,44 +15,51 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
       {
         nome: "Arrow",
         personagem: "Arqueiro Verde",
-        descricao: "O playboy bilionário Oliver Queen retorna para casa depois de ficar preso em uma ilha deserta por cinco anos. Após seu retorno à Starling City, Oliver reacende seus relacionamentos e passa suas noites caçando criminosos ricos como um vigilante encapuzado.",
+        descricao:
+          "O playboy bilionário Oliver Queen retorna para casa depois de ficar preso em uma ilha deserta por cinco anos. Após seu retorno à Starling City, Oliver reacende seus relacionamentos e passa suas noites caçando criminosos ricos como um vigilante encapuzado.",
         imagem:
           "https://static.wikia.nocookie.net/arrow/images/e/ea/Fadeout_title_card.png/revision/latest/scale-to-width-down/1000?cb=20200129194902",
       },
       {
         nome: "The Flash",
         personagem: "Flash",
-        descricao: "Depois de testemunhar o assassinato sobrenatural de sua mãe, Barry Allen é levado pelo detetive Joe West e sua filha, Iris. Um mau funcionamento do acelerador de partículas, banhando centro da cidade com uma radiação durante uma tempestade, e Barry é atingido por um raio. Despertando depois de um coma, ele descobre que pode se mover em velocidades sobre-humanas. Barry promete usar seus dons para proteger Central City. Como o Flash, Barry também persegue o assassino de sua mãe, o Flash Reverso.",
+        descricao:
+          "Depois de testemunhar o assassinato sobrenatural de sua mãe, Barry Allen é levado pelo detetive Joe West e sua filha, Iris. Um mau funcionamento do acelerador de partículas, banhando centro da cidade com uma radiação durante uma tempestade, e Barry é atingido por um raio. Despertando depois de um coma, ele descobre que pode se mover em velocidades sobre-humanas. Barry promete usar seus dons para proteger Central City. Como o Flash, Barry também persegue o assassino de sua mãe, o Flash Reverso.",
         imagem:
           "https://static.wikia.nocookie.net/arrow/images/c/c2/The_Flash_season_6_second_half_title_card.png/revision/latest?cb=20231014204849",
       },
       {
         nome: "Supergirl",
         personagem: "Supergirl",
-        descricao: "Kara Zor-El foi mandada para a Terra, de Krypton, com 13 anos de idade, pelos seus pais, Zor-El e Alura. Krypton estava explodindo, e os pais de Kara a mandaram em uma nave espacial para a Terra após seu primo. Kara foi mandada para proteger seu primo, Kal-El, mas sua nave colidiu e foi parar na Zona Fantasma, onde permaneceu por 24 anos. No tempo que a nave aterrissou na Terra, Kal-El já havia crescido e se tornado o Superman. A série começa onze anos após, onde agora Kara possui 24 anos e está aprendendo a abraçar seus poderes e adotou a alcunha super heroica de \"Supergirl\".",
-        imagem: "https://static.wikia.nocookie.net/arrow/images/b/b7/Supergirl_season_4_title_card.png/revision/latest?cb=20190114053137",
+        descricao:
+          'Kara Zor-El foi mandada para a Terra, de Krypton, com 13 anos de idade, pelos seus pais, Zor-El e Alura. Krypton estava explodindo, e os pais de Kara a mandaram em uma nave espacial para a Terra após seu primo. Kara foi mandada para proteger seu primo, Kal-El, mas sua nave colidiu e foi parar na Zona Fantasma, onde permaneceu por 24 anos. No tempo que a nave aterrissou na Terra, Kal-El já havia crescido e se tornado o Superman. A série começa onze anos após, onde agora Kara possui 24 anos e está aprendendo a abraçar seus poderes e adotou a alcunha super heroica de "Supergirl".',
+        imagem:
+          "https://static.wikia.nocookie.net/arrow/images/b/b7/Supergirl_season_4_title_card.png/revision/latest?cb=20190114053137",
       },
       {
         nome: "Legends of Tomorrow",
         personagem: "Lendas do Amanhã",
-        descricao: "Rip Hunter (Arthur Darvill) viaja de volta no tempo para os dias de hoje, onde ele reúne uma equipe de heróis e vilões em uma tentativa de impedir que Vandal Savage (Casper Crump) destrua o mundo e o próprio tempo. Um grupo de heróis e vilões viajantes do tempo que protegem a linha do tempo.",
+        descricao:
+          "Rip Hunter (Arthur Darvill) viaja de volta no tempo para os dias de hoje, onde ele reúne uma equipe de heróis e vilões em uma tentativa de impedir que Vandal Savage (Casper Crump) destrua o mundo e o próprio tempo. Um grupo de heróis e vilões viajantes do tempo que protegem a linha do tempo.",
         imagem:
           "https://static.wikia.nocookie.net/arrow/images/c/ce/DC%27s_Legends_of_Tomorrow_season_1_title_card.png/revision/latest/scale-to-width-down/1000?cb=20160122025407",
       },
       {
         nome: "Black Lightning",
         personagem: "Jefferson Pierce",
-        descricao: "Jefferson Pierce, que se aposentou de sua personalidade de super-herói, Raio Negro, há nove anos, depois de ver os efeitos que isso teve em sua família, é obrigado a se tornar um vigilante novamente quando o surgimento de uma gangue local chamada \"Os 100\" leva ao aumento do crime e da corrupção em sua comunidade. Um ex-herói que retorna para combater o crime em Freeland.",
+        descricao:
+          'Jefferson Pierce, que se aposentou de sua personalidade de super-herói, Raio Negro, há nove anos, depois de ver os efeitos que isso teve em sua família, é obrigado a se tornar um vigilante novamente quando o surgimento de uma gangue local chamada "Os 100" leva ao aumento do crime e da corrupção em sua comunidade. Um ex-herói que retorna para combater o crime em Freeland.',
         imagem:
           "https://static.wikia.nocookie.net/arrow/images/c/c6/Black_Lightning_season_4_logo.png/revision/latest/scale-to-width-down/1000?cb=20210831190950",
       },
       {
         nome: "Batwoman",
         personagem: "Kate Kane",
-        descricao: "Prima do Batman, Kate Kane assume o manto de Batwoman para proteger Gotham City. Kate Kane deve superar seus próprios demônios antes de ser capaz de proteger as ruas de Gotham como Batwoman e se tornando seu símbolo de esperança.",
+        descricao:
+          "Prima do Batman, Kate Kane assume o manto de Batwoman para proteger Gotham City. Kate Kane deve superar seus próprios demônios antes de ser capaz de proteger as ruas de Gotham como Batwoman e se tornando seu símbolo de esperança.",
         imagem:
           "https://static.wikia.nocookie.net/arrow/images/d/d1/Batwoman_Season_3_title_card.png/revision/latest/scale-to-width-down/1000?cb=20211015215942",
-      }
+      },
     ],
     imagens: [
       "https://static.wikia.nocookie.net/arrow/images/7/7e/MP-Flash_vs._Arrow.png/revision/latest/scale-to-width-down/210?cb=20200603055609",
@@ -333,9 +80,10 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
       "Sara Lance e Ava Sharpe (Avalance) se tornaram um dos primeiros casais LGBTQ+ protagonistas em uma série de super-heróis, com uma relação duradoura, madura e central na narrativa.",
       "Brandon Routh interpretou Ray Palmer/Átomo no Arrowverse, mas também reprisou o Superman de Superman Returns (2006) em Crisis on Infinite Earths, como o Superman do Reino do Amanhã.",
       "Quando Arrow acabou em 2020, foi como um marco simbólico — o fim do herói que começou tudo. O final de Oliver Queen também marcou o encerramento de muitos arcos do universo anterior à Crise.",
-    ]
+    ],
   },
   "#arrow": {
+    title: "Arrow",
     quote:
       "Você, Harper, Sara, o maluco de Central City, a Caçadora, eu tenho um novo cara voando pela cidade. Todos esses mascarados? Tudo começou com ele.",
     "quote-author": "Quentin Lance para Laurel Lance",
@@ -443,6 +191,7 @@ Enquanto Oliver se reconecta com seus amigos e parentes próximos, ele secretame
     ],
   },
   "#flash": {
+    title: "The Flash",
     quote:
       "Pra entender o que vou falar, você precisa fazer uma coisinha antes. Você tem que acreditar no impossível. Você pode fazer isso? Ótimo. Vê essa mancha vermelha? Sou eu. Essa também! Eu de novo. Meu nome é Barry Allen, eu sou o homem mais rápido do mundo. A minha história é bem simples: eu corri a minha vida toda...",
     "quote-author": "Barry Allen",
@@ -519,6 +268,7 @@ Nove meses em um coma, Barry despertou e descobriu que sua vida mudou novamente 
     ],
   },
   "#supergirl": {
+    title: "Supergirl",
     quote:
       "Eu fui enviada aqui pra proteger o meu primo. No fim das contas, ele não precisou da minha proteção. Mas existe um planeta cheio de gente que precisa. A Terra não tem mais só um herói. Agora, ela tem a mim. Agora, ela tem a Supergirl.",
     "quote-author": "Kara Danvers",
@@ -612,79 +362,75 @@ Embora Kara precise encontrar uma maneira de gerenciar seu novo empoderamento co
   },
 };
 
-const currentHash = window.location.hash;
-console.log(currentHash);
-setHero(currentHash);
+const imageModal = new bootstrap.Modal(document.getElementById("imageModal"));
+const modalImage = document.getElementById("modalImage");
 
-window.addEventListener("hashchange", () => {
-  const newHash = window.location.hash;
-  console.log("Hash changed to:", newHash);
-  setHero(newHash);
-});
+function setHero(hash) {
+  const heroData = heroMap[hash] || heroMap[""];
+  const navId = `nav-${hash.replace("#", "")}`;
 
-function setHero(hero) {
-  for (const key of Object.keys(heroMap)) {
-    const element = document.getElementById(key);
-    if (element) element.classList.remove("active");
-
-    if (key === hero || hero === "") {
-      element?.classList?.add("active");
-      console.log(hero);
-
-      if (heroMap[hero]) {
-        const heroData = heroMap[hero];
-        for (const prop in heroData) {
-          const el = document.getElementById(prop);
-          if (el) {
-            if (prop === "main-image") {
-              el.src = heroData[prop];
-            } else if (prop === "elenco") {
-              const elencoContainer = document.getElementById("elenco");
-              elencoContainer.innerHTML = "";
-              heroData[prop].forEach((actor) => {
-                const card = document.createElement("div");
-                card.className = "col";
-                card.innerHTML = `<div class="card h-100">
-  <img src="${actor.imagem}" class="card-img-top" alt="${actor.nome}" />
-  <div class="card-body">
-    <h5 class="card-title">${actor.nome}</h5>
-    <p class="card-text">${actor.personagem}</p>
-    <p class="card-text">${actor.descricao}</p>
-  </div>
-</div>`;
-                elencoContainer.appendChild(card);
-              });
-            } else if (prop === "curiosidades") {
-              const curiosidadesContainer =
-                document.getElementById("curiosidades");
-              curiosidadesContainer.innerHTML = "";
-              heroData[prop].forEach((curiosidade) => {
-                const li = document.createElement("li");
-                li.textContent = curiosidade;
-                curiosidadesContainer.appendChild(li);
-              });
-            } else if (prop === "imagens") {
-              const imagensContainer = document.getElementById("imagens");
-              imagensContainer.innerHTML = "";
-              heroData[prop].forEach((imagem) => {
-                const img = document.createElement("li");
-                img.style = "margin-bottom: 10px;";
-                img.className = "image-item";
-                img.innerHTML = `<img src="${imagem}" alt="Imagem" style="width: 100%; height: ; object-fit: contain; display: flex; align-items: center; justify-content: center;" />`;
-                imagensContainer.appendChild(img);
-              });
-            } else if (prop === "sinopse") {
-              el.innerHTML = heroData[prop]
-                .split("\n")
-                .filter((paragraph) => paragraph.trim().length > 0)
-                .map((paragraph) => `<p>${paragraph.trim()}</p>`)
-                .join("");
-            } else {
-              el.textContent = heroData[prop];
-            }
-          }
-        }
-      }
-    }
+  document
+    .querySelectorAll(".nav-link")
+    .forEach((link) => link.classList.remove("active"));
+  if (document.getElementById(navId)) {
+    document.getElementById(navId).classList.add("active");
   }
+
+  document.getElementById("quote").textContent = heroData.quote;
+  document.getElementById("quote-author").textContent =
+    heroData["quote-author"];
+  document.getElementById("main-image").src = heroData["main-image"];
+  document.getElementById("imageModalLabel").textContent = heroData.title;
+
+  document.getElementById("sinopse").innerHTML = heroData.sinopse
+    .split("\n")
+    .map((p) => `<p>${p.trim()}</p>`)
+    .join("");
+
+  const elencoContainer = document.getElementById("elenco");
+  elencoContainer.innerHTML = "";
+  heroData.elenco.forEach((actor) => {
+    const cardHtml = `
+      <div class="col">
+        <div class="card h-100 card-elenco">
+          <img src="${actor.imagem}" class="card-img-top" alt="${actor.nome}">
+          <div class="card-body">
+            <h5 class="card-title">${actor.nome}</h5>
+            <p class="card-text text-body-secondary">${actor.personagem}</p>
+          </div>
+        </div>
+      </div>`;
+    elencoContainer.innerHTML += cardHtml;
+  });
+
+  const curiosidadesContainer = document.getElementById("curiosidades");
+  curiosidadesContainer.innerHTML = "";
+  heroData.curiosidades.forEach((item) => {
+    const listItem = `
+      <li class="list-group-item curiosidade-item">
+        <p class="mb-1 text-body-secondary">${item}</p>
+      </li>`;
+    curiosidadesContainer.innerHTML += listItem;
+  });
+
+  const imagensContainer = document.getElementById("imagens");
+  imagensContainer.innerHTML = "";
+  heroData.imagens.forEach((imgSrc) => {
+    const imageItem = document.createElement("a");
+    imageItem.href = "#";
+    imageItem.className =
+      "list-group-item list-group-item-action p-0 image-list-item";
+    imageItem.innerHTML = `<img src="${imgSrc}" class="img-fluid rounded" alt="Galeria">`;
+    imageItem.addEventListener("click", (e) => {
+      e.preventDefault();
+      modalImage.src = imgSrc;
+      imageModal.show();
+    });
+    imagensContainer.appendChild(imageItem);
+  });
 }
+
+window.addEventListener("hashchange", () => setHero(window.location.hash));
+window.addEventListener("DOMContentLoaded", () =>
+  setHero(window.location.hash)
+);
