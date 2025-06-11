@@ -260,6 +260,81 @@
 // };
 
 const heroMap = {
+  "": {
+    quote: "You don't have to be perfect to be a hero.",
+    "quote-author": "Sara Lance",
+    // "main-image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/crisis-on-infinite-earths-arrowverse-poster-cropped.jpg?q=70&fit=contain&w=1200&h=628&dpr=1",
+    "main-image": "https://static.wikia.nocookie.net/arrow/images/7/73/Entertainment_Weekly_cover_shoot_-_Batwoman%2C_Green_Arrow%2C_The_Flash%2C_Supergirl_and_White_Canary.png/revision/latest/scale-to-width-down/1000?cb=20190718024158",
+    sinopse: `O "Arrowverse" é uma franquia de televisão baseada em personagens que aparecem em publicações da DC Comics. O multiverso compartilhado é semelhante ao universo DC em suas histórias em quadrinhos, que teve elementos de enredo, cenários e personagens crossover.
+\n
+A franquia começou em Arrow, baseado no personagem Arqueiro Verde, que estreou em 10 de outubro de 2012. Seguiu-se em The Flash em 2014, e na websérie animada Vixen em 2015. Matt Ryan reprisou seu papel como John Constantine da série em live-action Constantine do canal NBC de 2014 em aparições como convidado em episódio de Arrow e Legends of Tomorrow, antes de se tornar um personagem regular, na última, além de continuar as histórias da série anterior. A franquia foi expandida ainda mais em 2016, quando em janeiro de naquele ano, uma nova série intitulada Legends of Tomorrow foi lançada, estrelando personagens que originalmente apareceram em Arrow e The Flash. Mais tarde naquele ano, a série Supergirl da CBS, já tendo um crossover com The Flash, foi transferida para a The CW para sua segunda temporada, onde permaneceu desde então.
+\n
+Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das séries live-action do Arrowverso.
+`,
+    elenco: [
+      {
+        nome: "Arrow",
+        personagem: "Arqueiro Verde",
+        descricao: "O playboy bilionário Oliver Queen retorna para casa depois de ficar preso em uma ilha deserta por cinco anos. Após seu retorno à Starling City, Oliver reacende seus relacionamentos e passa suas noites caçando criminosos ricos como um vigilante encapuzado.",
+        imagem:
+          "https://static.wikia.nocookie.net/arrow/images/e/ea/Fadeout_title_card.png/revision/latest/scale-to-width-down/1000?cb=20200129194902",
+      },
+      {
+        nome: "The Flash",
+        personagem: "Flash",
+        descricao: "Depois de testemunhar o assassinato sobrenatural de sua mãe, Barry Allen é levado pelo detetive Joe West e sua filha, Iris. Um mau funcionamento do acelerador de partículas, banhando centro da cidade com uma radiação durante uma tempestade, e Barry é atingido por um raio. Despertando depois de um coma, ele descobre que pode se mover em velocidades sobre-humanas. Barry promete usar seus dons para proteger Central City. Como o Flash, Barry também persegue o assassino de sua mãe, o Flash Reverso.",
+        imagem:
+          "https://static.wikia.nocookie.net/arrow/images/c/c2/The_Flash_season_6_second_half_title_card.png/revision/latest?cb=20231014204849",
+      },
+      {
+        nome: "Supergirl",
+        personagem: "Supergirl",
+        descricao: "Kara Zor-El foi mandada para a Terra, de Krypton, com 13 anos de idade, pelos seus pais, Zor-El e Alura. Krypton estava explodindo, e os pais de Kara a mandaram em uma nave espacial para a Terra após seu primo. Kara foi mandada para proteger seu primo, Kal-El, mas sua nave colidiu e foi parar na Zona Fantasma, onde permaneceu por 24 anos. No tempo que a nave aterrissou na Terra, Kal-El já havia crescido e se tornado o Superman. A série começa onze anos após, onde agora Kara possui 24 anos e está aprendendo a abraçar seus poderes e adotou a alcunha super heroica de \"Supergirl\".",
+        imagem: "https://static.wikia.nocookie.net/arrow/images/b/b7/Supergirl_season_4_title_card.png/revision/latest?cb=20190114053137",
+      },
+      {
+        nome: "Legends of Tomorrow",
+        personagem: "Lendas do Amanhã",
+        descricao: "Rip Hunter (Arthur Darvill) viaja de volta no tempo para os dias de hoje, onde ele reúne uma equipe de heróis e vilões em uma tentativa de impedir que Vandal Savage (Casper Crump) destrua o mundo e o próprio tempo. Um grupo de heróis e vilões viajantes do tempo que protegem a linha do tempo.",
+        imagem:
+          "https://static.wikia.nocookie.net/arrow/images/c/ce/DC%27s_Legends_of_Tomorrow_season_1_title_card.png/revision/latest/scale-to-width-down/1000?cb=20160122025407",
+      },
+      {
+        nome: "Black Lightning",
+        personagem: "Jefferson Pierce",
+        descricao: "Jefferson Pierce, que se aposentou de sua personalidade de super-herói, Raio Negro, há nove anos, depois de ver os efeitos que isso teve em sua família, é obrigado a se tornar um vigilante novamente quando o surgimento de uma gangue local chamada \"Os 100\" leva ao aumento do crime e da corrupção em sua comunidade. Um ex-herói que retorna para combater o crime em Freeland.",
+        imagem:
+          "https://static.wikia.nocookie.net/arrow/images/c/c6/Black_Lightning_season_4_logo.png/revision/latest/scale-to-width-down/1000?cb=20210831190950",
+      },
+      {
+        nome: "Batwoman",
+        personagem: "Kate Kane",
+        descricao: "Prima do Batman, Kate Kane assume o manto de Batwoman para proteger Gotham City. Kate Kane deve superar seus próprios demônios antes de ser capaz de proteger as ruas de Gotham como Batwoman e se tornando seu símbolo de esperança.",
+        imagem:
+          "https://static.wikia.nocookie.net/arrow/images/d/d1/Batwoman_Season_3_title_card.png/revision/latest/scale-to-width-down/1000?cb=20211015215942",
+      }
+    ],
+    imagens: [
+      "https://static.wikia.nocookie.net/arrow/images/7/7e/MP-Flash_vs._Arrow.png/revision/latest/scale-to-width-down/210?cb=20200603055609",
+      "https://static.wikia.nocookie.net/arrow/images/8/80/MP-Heroes_Join_Forces.png/revision/latest/scale-to-width-down/210?cb=20200603055648",
+      "https://static.wikia.nocookie.net/arrow/images/2/29/MP-Invasion%21.png/revision/latest/scale-to-width-down/210?cb=20200603060532",
+      "https://static.wikia.nocookie.net/arrow/images/2/27/MP-Crisis_on_Earth-X.png/revision/latest/scale-to-width-down/210?cb=20200603055202",
+      "https://static.wikia.nocookie.net/arrow/images/1/17/MP-Elseworlds.png/revision/latest/scale-to-width-down/210?cb=20200603055548",
+      "https://static.wikia.nocookie.net/arrow/images/d/da/MP-Crisis_on_Infinite_Earths.png/revision/latest/scale-to-width-down/210?cb=20200603055527",
+      "https://static.wikia.nocookie.net/arrow/images/3/31/MP-Armageddon.png/revision/latest/scale-to-width-down/210?cb=20211106002152",
+      "https://static.wikia.nocookie.net/arrow/images/0/0b/Heroes_of_the_CW_promotional.png/revision/latest?cb=20231119212803",
+    ],
+    curiosidades: [
+      "O Arrowverse nasceu com Arrow, que foi criado como uma série mais realista e sem poderes no início — mas seu sucesso abriu as portas para um universo expandido com superpoderes, viagens no tempo e multiverso.",
+      "Antes de The Flash ter sua própria série, Barry Allen apareceu como um cientista forense em dois episódios de Arrow (temporada 2), servindo como piloto de porta de entrada para o novo herói.",
+      "Durante o evento Crisis on Infinite Earths (2019–2020), todo o multiverso foi destruído e recriado — e as principais séries passaram a coexistir na mesma Terra: Earth-Prime.",
+      "Como Oliver Queen, Stephen Amell interpretou várias versões de si mesmo: Oliver do presente, futuro, Terra-2, Terra-X, o Espectro (Spectre), o Flash, entre outros.",
+      "Legends of Tomorrow nasceu com um tom sério e heróico, mas depois da segunda temporada adotou um estilo mais nonsense, caótico e divertido, com episódios envolvendo unicórnios assassinos, Shakespeare e até... reality show intergaláctico.",
+      "Sara Lance e Ava Sharpe (Avalance) se tornaram um dos primeiros casais LGBTQ+ protagonistas em uma série de super-heróis, com uma relação duradoura, madura e central na narrativa.",
+      "Brandon Routh interpretou Ray Palmer/Átomo no Arrowverse, mas também reprisou o Superman de Superman Returns (2006) em Crisis on Infinite Earths, como o Superman do Reino do Amanhã.",
+      "Quando Arrow acabou em 2020, foi como um marco simbólico — o fim do herói que começou tudo. O final de Oliver Queen também marcou o encerramento de muitos arcos do universo anterior à Crise.",
+    ]
+  },
   "#arrow": {
     quote:
       "Você, Harper, Sara, o maluco de Central City, a Caçadora, eu tenho um novo cara voando pela cidade. Todos esses mascarados? Tudo começou com ele.",
@@ -550,12 +625,11 @@ window.addEventListener("hashchange", () => {
 function setHero(hero) {
   for (const key of Object.keys(heroMap)) {
     const element = document.getElementById(key);
-    if (element) {
-      element.classList.remove("active");
-    }
+    if (element) element.classList.remove("active");
 
-    if (key === hero) {
-      element.classList.add("active");
+    if (key === hero || hero === "") {
+      element?.classList?.add("active");
+      console.log(hero);
 
       if (heroMap[hero]) {
         const heroData = heroMap[hero];
