@@ -1,6 +1,15 @@
+function isUserLoggedIn() {
+  return !!localStorage.getItem("loggedIn");
+}
+
+if (!isUserLoggedIn()) {
+  window.location.href = "login.html";
+}
+
 const heroMap = {
   "": {
     quote: "You don't have to be perfect to be a hero.",
+    quote: "Você não precisa ser perfeito para ser um herói.",
     "quote-author": "Sara Lance",
     // "main-image": "images/static1.cbrimages.com_wordpress_wp-content_uploads_2023_04_crisis-on-infinite-earths-arrowverse-poster-cropped.jpg",
     "main-image": "images/main-image.png",
@@ -18,6 +27,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
           "O playboy bilionário Oliver Queen retorna para casa depois de ficar preso em uma ilha deserta por cinco anos. Após seu retorno à Starling City, Oliver reacende seus relacionamentos e passa suas noites caçando criminosos ricos como um vigilante encapuzado.",
         imagem:
           "images/static.wikia.nocookie.net_arrow_images_e_ea_Fadeout_title_card.png",
+        hash: "#arrow",
       },
       {
         nome: "The Flash",
@@ -26,6 +36,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
           "Depois de testemunhar o assassinato sobrenatural de sua mãe, Barry Allen é levado pelo detetive Joe West e sua filha, Iris. Um mau funcionamento do acelerador de partículas, banhando centro da cidade com uma radiação durante uma tempestade, e Barry é atingido por um raio. Despertando depois de um coma, ele descobre que pode se mover em velocidades sobre-humanas. Barry promete usar seus dons para proteger Central City. Como o Flash, Barry também persegue o assassino de sua mãe, o Flash Reverso.",
         imagem:
           "images/static.wikia.nocookie.net_arrow_images_c_c2_The_Flash_season_6_second_half_title_card.png",
+        hash: "#flash",
       },
       {
         nome: "Supergirl",
@@ -34,6 +45,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
           'Kara Zor-El foi mandada para a Terra, de Krypton, com 13 anos de idade, pelos seus pais, Zor-El e Alura. Krypton estava explodindo, e os pais de Kara a mandaram em uma nave espacial para a Terra após seu primo. Kara foi mandada para proteger seu primo, Kal-El, mas sua nave colidiu e foi parar na Zona Fantasma, onde permaneceu por 24 anos. No tempo que a nave aterrissou na Terra, Kal-El já havia crescido e se tornado o Superman. A série começa onze anos após, onde agora Kara possui 24 anos e está aprendendo a abraçar seus poderes e adotou a alcunha super heroica de "Supergirl".',
         imagem:
           "images/static.wikia.nocookie.net_arrow_images_b_b7_Supergirl_season_4_title_card.png",
+        hash: "#supergirl",
       },
       {
         nome: "Legends of Tomorrow",
@@ -41,6 +53,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
         descricao:
           "Rip Hunter (Arthur Darvill) viaja de volta no tempo para os dias de hoje, onde ele reúne uma equipe de heróis e vilões em uma tentativa de impedir que Vandal Savage (Casper Crump) destrua o mundo e o próprio tempo. Um grupo de heróis e vilões viajantes do tempo que protegem a linha do tempo.",
         imagem: "images/lot-title-card.png",
+        hash: "#lot",
       },
       {
         nome: "Black Lightning",
@@ -49,6 +62,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
           'Jefferson Pierce, que se aposentou de sua personalidade de super-herói, Raio Negro, há nove anos, depois de ver os efeitos que isso teve em sua família, é obrigado a se tornar um vigilante novamente quando o surgimento de uma gangue local chamada "Os 100" leva ao aumento do crime e da corrupção em sua comunidade. Um ex-herói que retorna para combater o crime em Freeland.',
         imagem:
           "images/static.wikia.nocookie.net_arrow_images_c_c6_Black_Lightning_season_4_logo.png",
+        hash: "#black-lightning",
       },
       {
         nome: "Batwoman",
@@ -57,6 +71,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
           "Prima do Batman, Kate Kane assume o manto de Batwoman para proteger Gotham City. Kate Kane deve superar seus próprios demônios antes de ser capaz de proteger as ruas de Gotham como Batwoman e se tornando seu símbolo de esperança.",
         imagem:
           "images/static.wikia.nocookie.net_arrow_images_d_d1_Batwoman_Season_3_title_card.png",
+        hash: "#batwoman",
       },
     ],
     imagens: [
@@ -69,6 +84,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
       "images/static.wikia.nocookie.net_arrow_images_d_da_MP-Crisis_on_Infinite_Earths.png",
       "images/static.wikia.nocookie.net_arrow_images_3_31_MP-Armageddon.png",
       "images/static.wikia.nocookie.net_arrow_images_0_0b_Heroes_of_the_CW_promotional.png",
+      "https://static.wikia.nocookie.net/arrow/images/4/4b/Superhero_Fight_Club_full_promo_image.png",
     ],
     curiosidades: [
       "O Arrowverse nasceu com Arrow, que foi criado como uma série mais realista e sem poderes no início — mas seu sucesso abriu as portas para um universo expandido com superpoderes, viagens no tempo e multiverso.",
@@ -87,7 +103,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
       "Você, Harper, Sara, o maluco de Central City, a Caçadora, eu tenho um novo cara voando pela cidade. Todos esses mascarados? Tudo começou com ele.",
     "quote-author": "Quentin Lance para Laurel Lance",
     "main-image":
-      "https://static.wikia.nocookie.net/arrow/images/e/ea/Fadeout_title_card.png",
+      "images/static.wikia.nocookie.net_arrow_images_e_ea_Fadeout_title_card.png",
     sinopse: `
 Depois de um naufrágio, o bilionário Oliver Queen desapareceu e foi declarado morto por 5 anos antes de ser encontrado vivo em uma ilha remota no mar da China do Norte. Quando retornou para casa, em Starling City, sua devotada mãe, Moira, sua irmã, Thea, seu melhor amigo, Tommy, receberam-o em casa, mas sentiram que Oliver havia mudado depois de muitos anos fora. Enquanto Oliver esconde a verdade sobre o homem que ele se tornou, ele quer desesperadamente consertar as ações que tomou quando era um menino. Mas, particularmente, ele busca se reconciliar com sua ex-namorada, Laurel Lance.
 \n
@@ -353,12 +369,123 @@ Embora Kara precise encontrar uma maneira de gerenciar seu novo empoderamento co
       "images/static.wikia.nocookie.net_arrow_images_5_58_Supergirl_saving_Snapper_from_Biomax.png",
     ],
   },
+  "#lot": {
+    title: "Lendas do Amanhã",
+    quote: '"Uma vez uma Lenda...""Sempre uma Lenda.".',
+    "quote-author": "Sara Lance e Charlie",
+    "main-image":
+      "https://static.wikia.nocookie.net/arrow/images/c/ce/DC%27s_Legends_of_Tomorrow_season_1_title_card.png",
+    sinopse: `Quando heróis sozinhos não são o suficiente, o mundo precisa de lendas. Depois de ver o futuro, uma pessoa irá desesperadamente preveni-lo que isto aconteça. O viajante do tempo Rip Hunter foi encarregado de reunir um grupo de heróis e vilões para enfrentar uma ameaça - a qual não colocará apenas o planeta em perigo, mas todo o tempo. Esta equipe de desajustados conseguirá derrotar uma ameaça imortal que nenhum nunca deles já enfrentou?`,
+    elenco: [
+      {
+        nome: "Caity Lotz",
+        personagem: "Sara Lance - Canário Branco",
+        descricao: "Capitã da Waverider e líder das lendas.",
+        imagem:
+          "images/static.wikia.nocookie.net_arrow_images_b_b6_White_Canary.png",
+      },
+      {
+        nome: "Arthur Darvill",
+        personagem: "Rip Hunter",
+        descricao: "Mestre do Tempo e líder das lendas.",
+        imagem:
+          "https://static.wikia.nocookie.net/arrow/images/4/44/Rip_Hunter.png",
+      },
+      {
+        nome: "Brandon Routh",
+        personagem: "Ray Palmer - Átomo",
+        descricao: "Cientista e inventor que se torna o herói Átomo.",
+        imagem:
+          "https://static.wikia.nocookie.net/arrow/images/6/66/Ray_Palmer.png",
+      },
+      {
+        nome: "Franz Drameh",
+        personagem: "Jefferson Jackson - Nuclear",
+        descricao: "Membro da equipe Firestorm, com poderes de fogo.",
+        imagem:
+          "https://static.wikia.nocookie.net/arrow/images/a/a9/Firestorm_%28Jefferson_Jackson%29.png",
+      },
+      {
+        nome: "Victor Garber",
+        personagem: "Martin Stein - Nuclear",
+        descricao: "Cientista e metade do Nuclear.",
+        imagem: "https://static.wikia.nocookie.net/arrow/images/1/17/Martin_Stein.png",
+      },
+      {
+        nome: "Amy Louise Pemberton",
+        personagem: "Gideon",
+        descricao: "Inteligência artificial da Waverider.",
+        imagem: "https://static.wikia.nocookie.net/arrow/images/c/cb/Gideon_human_form.png",
+      },
+      {
+        nome: "Dominic Purcell",
+        personagem: "Mick Rory - Onda Térmica",
+        descricao: "Ladrão, anti-herói e membro da equipe com poderes de fogo.",
+        imagem: "https://static.wikia.nocookie.net/arrow/images/2/2d/Heat_Wave.png",
+      },
+      {
+        nome: "Wentworth Miller",
+        personagem: "Leonard Snart - Capitão Frio",
+        descricao: "Ladrão, anti-herói e membro da equipe com poderes de gelo.",
+        imagem: "https://static.wikia.nocookie.net/arrow/images/3/35/Captain_Cold.png",
+      },
+      {
+        nome: "Maisie Richardson-Sellers",
+        personagem: "Amaya Jiwe - Vixen",
+        descricao: "Heroína com a habilidade de invocar os poderes dos animais.",
+        imagem: "https://static.wikia.nocookie.net/arrow/images/7/7e/Vixen_%28Amaya_Jiwe%29.png",
+      },
+      {
+        nome: "Nick Zano",
+        personagem: "Nate Heywood",
+        descricao: "Historiador e herói com a habilidade de se transformar em aço.",
+        imagem: "https://static.wikia.nocookie.net/arrow/images/1/1d/Nate_Heywood.png",
+      },
+      {
+        nome: "Tala Ashe",
+        personagem: "Zari Tomaz",
+        descricao: "Habilidade de controlar o vento.",
+        imagem: "https://static.wikia.nocookie.net/arrow/images/1/14/Zari_Tomaz.png",
+      },
+      {
+        nome: "Jes Macallan",
+        personagem: "Ava Sharpe",
+        descricao: "Agente da Agência do Tempo.",
+        imagem: "https://static.wikia.nocookie.net/arrow/images/e/e3/Ava_Sharpe.png",
+      }
+    ],
+    curiosidades: [
+      "Lendas do Amanhã é série do Arrowverso com o maior número de pessoas em seu elenco principal, com o total de 23.",
+      "A quarta temporada é a primeira em que não há nenhum monólogo de abertura em quaisquer episódios.",
+      "Não há nenhum membro do elenco principal que tenha aparecido em todos os episódios.",
+      "Caity Lotz e Amy Louise Pemberton são as únicas atrizes a aparecer em todas as temporadas da série.",
+    ],
+    imagens: [
+      "https://static.wikia.nocookie.net/arrow/images/c/ca/DC%27s_Legends_of_Tomorrow_first_look_promo.png",
+      "https://static.wikia.nocookie.net/arrow/images/c/c1/The_Legends_use_the_Totems_of_Zambesi_to_manifest_as_Beebo_to_take_on_Mallus.png",
+      "https://static.wikia.nocookie.net/arrow/images/7/76/John_Constantine.png",
+      "https://static.wikia.nocookie.net/arrow/images/5/59/Detroit_in_the_year_3000.png",
+      "https://static.wikia.nocookie.net/arrow/images/7/7c/Oliver_tells_Ray_to_trust_Felicity.png",
+      "https://static.wikia.nocookie.net/arrow/images/5/53/Firestorm_%28Martin_Stein%3B_in_costume%29.png",
+      "https://static.wikia.nocookie.net/arrow/images/e/ef/Martin_Stein_absorbs_energy_from_the_thermal_core.png",
+      "https://static.wikia.nocookie.net/arrow/images/2/25/Gideon_introduces_itself_to_the_team.png",
+      "https://static.wikia.nocookie.net/arrow/images/c/cd/Oliver_and_Connor_stand_over_Grant_Wilson.png",
+      "https://static.wikia.nocookie.net/arrow/images/f/f5/Legends_Snart_uses_his_Cold_gun_at_the_hole_in_the_Waverider_hull.png",
+      "https://static.wikia.nocookie.net/arrow/images/2/2b/DC%27s_Legends_of_Tomorrow_season_1_textless_poster_-_Their_Time_is_Now.png",
+      "https://static.wikia.nocookie.net/arrow/images/2/2f/Zari%2C_young_Ray%2C_and_Atom_fly_away.png",
+      "https://static.wikia.nocookie.net/arrow/images/d/d1/Helen_escapes_with_the_Legends.png",
+      "https://static.wikia.nocookie.net/arrow/images/f/f1/Fighting_the_AVA_clones.png",
+      "https://static.wikia.nocookie.net/arrow/images/0/00/Sara_and_Ava_first_kiss.png",
+    ],
+  },
 };
 
 const imageModal = new bootstrap.Modal(document.getElementById("imageModal"));
 const modalImage = document.getElementById("modalImage");
 
 function setHero(hash) {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+
   const heroData = heroMap[hash] || heroMap[""];
   const navId = `nav-${hash.replace("#", "")}`;
 
@@ -377,31 +504,40 @@ function setHero(hash) {
 
   document.getElementById("sinopse").innerHTML = heroData.sinopse
     .split("\n")
-    .map((p) => `<p>${p.trim()}</p>`)
+    .map((p) => `<p class="indented-paragraph" >${p.trim()}</p>`)
     .join("");
 
   const elencoContainer = document.getElementById("elenco");
   elencoContainer.innerHTML = "";
   heroData.elenco.forEach((actor) => {
-    const cardHtml = `
-      <div class="col">
+    let card = document.createElement("div");
+    card.classList.add("col");
+    card.innerHTML = `
         <div class="card h-100 card-elenco">
-          <img src="${actor.imagem}" class="card-img-top" alt="${actor.nome}">
+          <div class="ratio ratio-16x9">
+            <img src="${actor.imagem}" class="card-img-top w-100 h-100"  alt="${actor.nome}">
+          </div>
           <div class="card-body">
             <h5 class="card-title">${actor.nome}</h5>
             <p class="card-text text-body-secondary">${actor.personagem}</p>
           </div>
-        </div>
       </div>`;
-    elencoContainer.innerHTML += cardHtml;
+
+    if (actor.hash) {
+      card.addEventListener("click", () => {
+        window.location.hash = actor.hash;
+      });
+      card.style.cursor = "pointer";
+    }
+    elencoContainer.appendChild(card);
   });
 
   const curiosidadesContainer = document.getElementById("curiosidades");
   curiosidadesContainer.innerHTML = "";
   heroData.curiosidades.forEach((item) => {
     const listItem = `
-      <li class="list-group-item curiosidade-item">
-        <p class="mb-1 text-body-secondary">${item}</p>
+      <li class="list-group-item curiosidade-item bg-body-tertiary rounded">
+        <p class="mt-2 text-body-secondary">${item}</p>
       </li>`;
     curiosidadesContainer.innerHTML += listItem;
   });
@@ -411,8 +547,9 @@ function setHero(hash) {
   heroData.imagens.forEach((imgSrc) => {
     const imageItem = document.createElement("a");
     imageItem.href = "#";
-    imageItem.className =
-      "list-group-item list-group-item-action p-0 image-list-item";
+    imageItem.style.display = "block";
+    imageItem.style.width = "100%";
+    imageItem.className = "p-0 image-list-item mb-2";
     imageItem.innerHTML = `<img src="${imgSrc}" class="img-fluid rounded" alt="Galeria">`;
     imageItem.addEventListener("click", (e) => {
       e.preventDefault();

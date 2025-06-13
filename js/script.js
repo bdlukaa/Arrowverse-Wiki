@@ -9,6 +9,7 @@ if (!isUserLoggedIn()) {
 const heroMap = {
   "": {
     quote: "You don't have to be perfect to be a hero.",
+    quote: "Você não precisa ser perfeito para ser um herói.",
     "quote-author": "Sara Lance",
     // "main-image": "images/static1.cbrimages.com_wordpress_wp-content_uploads_2023_04_crisis-on-infinite-earths-arrowverse-poster-cropped.jpg",
     "main-image": "images/main-image.png",
@@ -54,24 +55,24 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
         imagem: "images/lot-title-card.png",
         hash: "#lot",
       },
-      {
-        nome: "Black Lightning",
-        personagem: "Jefferson Pierce",
-        descricao:
-          'Jefferson Pierce, que se aposentou de sua personalidade de super-herói, Raio Negro, há nove anos, depois de ver os efeitos que isso teve em sua família, é obrigado a se tornar um vigilante novamente quando o surgimento de uma gangue local chamada "Os 100" leva ao aumento do crime e da corrupção em sua comunidade. Um ex-herói que retorna para combater o crime em Freeland.',
-        imagem:
-          "images/static.wikia.nocookie.net_arrow_images_c_c6_Black_Lightning_season_4_logo.png",
-        hash: "#black-lightning",
-      },
-      {
-        nome: "Batwoman",
-        personagem: "Kate Kane",
-        descricao:
-          "Prima do Batman, Kate Kane assume o manto de Batwoman para proteger Gotham City. Kate Kane deve superar seus próprios demônios antes de ser capaz de proteger as ruas de Gotham como Batwoman e se tornando seu símbolo de esperança.",
-        imagem:
-          "images/static.wikia.nocookie.net_arrow_images_d_d1_Batwoman_Season_3_title_card.png",
-        hash: "#batwoman",
-      },
+      // {
+      //   nome: "Black Lightning",
+      //   personagem: "Jefferson Pierce",
+      //   descricao:
+      //     'Jefferson Pierce, que se aposentou de sua personalidade de super-herói, Raio Negro, há nove anos, depois de ver os efeitos que isso teve em sua família, é obrigado a se tornar um vigilante novamente quando o surgimento de uma gangue local chamada "Os 100" leva ao aumento do crime e da corrupção em sua comunidade. Um ex-herói que retorna para combater o crime em Freeland.',
+      //   imagem:
+      //     "images/static.wikia.nocookie.net_arrow_images_c_c6_Black_Lightning_season_4_logo.png",
+      //   hash: "#black-lightning",
+      // },
+      // {
+      //   nome: "Batwoman",
+      //   personagem: "Kate Kane",
+      //   descricao:
+      //     "Prima do Batman, Kate Kane assume o manto de Batwoman para proteger Gotham City. Kate Kane deve superar seus próprios demônios antes de ser capaz de proteger as ruas de Gotham como Batwoman e se tornando seu símbolo de esperança.",
+      //   imagem:
+      //     "images/static.wikia.nocookie.net_arrow_images_d_d1_Batwoman_Season_3_title_card.png",
+      //   hash: "#batwoman",
+      // },
     ],
     imagens: [
       "images/static.wikia.nocookie.net_arrow_images_0_00_Supergirl_and_The_Flash_meet.png",
@@ -83,6 +84,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
       "images/static.wikia.nocookie.net_arrow_images_d_da_MP-Crisis_on_Infinite_Earths.png",
       "images/static.wikia.nocookie.net_arrow_images_3_31_MP-Armageddon.png",
       "images/static.wikia.nocookie.net_arrow_images_0_0b_Heroes_of_the_CW_promotional.png",
+      "images/static.wikia.nocookie.net_arrow_images_4_4b_Superhero_Fight_Club_full_promo_image.png",
     ],
     curiosidades: [
       "O Arrowverse nasceu com Arrow, que foi criado como uma série mais realista e sem poderes no início — mas seu sucesso abriu as portas para um universo expandido com superpoderes, viagens no tempo e multiverso.",
@@ -367,6 +369,125 @@ Embora Kara precise encontrar uma maneira de gerenciar seu novo empoderamento co
       "images/static.wikia.nocookie.net_arrow_images_5_58_Supergirl_saving_Snapper_from_Biomax.png",
     ],
   },
+  "#lot": {
+    title: "Lendas do Amanhã",
+    quote: '"Uma vez uma Lenda...""Sempre uma Lenda.".',
+    "quote-author": "Sara Lance e Charlie",
+    "main-image":
+      "images/lot-title.png",
+    sinopse: `Quando heróis sozinhos não são o suficiente, o mundo precisa de lendas. Depois de ver o futuro, uma pessoa irá desesperadamente preveni-lo que isto aconteça. O viajante do tempo Rip Hunter foi encarregado de reunir um grupo de heróis e vilões para enfrentar uma ameaça - a qual não colocará apenas o planeta em perigo, mas todo o tempo. Esta equipe de desajustados conseguirá derrotar uma ameaça imortal que nenhum nunca deles já enfrentou?`,
+    elenco: [
+      {
+        nome: "Caity Lotz",
+        personagem: "Sara Lance - Canário Branco",
+        descricao: "Capitã da Waverider e líder das lendas.",
+        imagem:
+          "images/static.wikia.nocookie.net_arrow_images_b_b6_White_Canary.png",
+      },
+      {
+        nome: "Arthur Darvill",
+        personagem: "Rip Hunter",
+        descricao: "Mestre do Tempo e líder das lendas.",
+        imagem:
+          "images/static.wikia.nocookie.net_arrow_images_4_44_Rip_Hunter.png",
+      },
+      {
+        nome: "Brandon Routh",
+        personagem: "Ray Palmer - Átomo",
+        descricao: "Cientista e inventor que se torna o herói Átomo.",
+        imagem:
+          "images/static.wikia.nocookie.net_arrow_images_6_66_Ray_Palmer.png",
+      },
+      {
+        nome: "Franz Drameh",
+        personagem: "Jefferson Jackson - Nuclear",
+        descricao: "Membro da equipe Firestorm, com poderes de fogo.",
+        imagem:
+          "images/nuclear.png",
+      },
+      {
+        nome: "Victor Garber",
+        personagem: "Martin Stein - Nuclear",
+        descricao: "Cientista e metade do Nuclear.",
+        imagem:
+          "images/static.wikia.nocookie.net_arrow_images_1_17_Martin_Stein.png",
+      },
+      {
+        nome: "Amy Louise Pemberton",
+        personagem: "Gideon",
+        descricao: "Inteligência artificial da Waverider.",
+        imagem:
+          "images/static.wikia.nocookie.net_arrow_images_c_cb_Gideon_human_form.png",
+      },
+      {
+        nome: "Dominic Purcell",
+        personagem: "Mick Rory - Onda Térmica",
+        descricao: "Ladrão, anti-herói e membro da equipe com poderes de fogo.",
+        imagem:
+          "images/static.wikia.nocookie.net_arrow_images_2_2d_Heat_Wave.png",
+      },
+      {
+        nome: "Wentworth Miller",
+        personagem: "Leonard Snart - Capitão Frio",
+        descricao: "Ladrão, anti-herói e membro da equipe com poderes de gelo.",
+        imagem:
+          "images/static.wikia.nocookie.net_arrow_images_3_35_Captain_Cold.png",
+      },
+      {
+        nome: "Maisie Richardson-Sellers",
+        personagem: "Amaya Jiwe - Vixen",
+        descricao:
+          "Heroína com a habilidade de invocar os poderes dos animais.",
+        imagem:
+          "images/static.wikia.nocookie.net_arrow_images_7_7e_Vixen_%28Amaya_Jiwe%29.png",
+      },
+      {
+        nome: "Nick Zano",
+        personagem: "Nate Heywood",
+        descricao:
+          "Historiador e herói com a habilidade de se transformar em aço.",
+        imagem:
+          "images/static.wikia.nocookie.net_arrow_images_1_1d_Nate_Heywood.png",
+      },
+      {
+        nome: "Tala Ashe",
+        personagem: "Zari Tomaz",
+        descricao: "Habilidade de controlar o vento.",
+        imagem:
+          "images/static.wikia.nocookie.net_arrow_images_1_14_Zari_Tomaz.png",
+      },
+      {
+        nome: "Jes Macallan",
+        personagem: "Ava Sharpe",
+        descricao: "Agente da Agência do Tempo.",
+        imagem:
+          "images/static.wikia.nocookie.net_arrow_images_e_e3_Ava_Sharpe.png",
+      },
+    ],
+    curiosidades: [
+      "Lendas do Amanhã é série do Arrowverso com o maior número de pessoas em seu elenco principal, com o total de 23.",
+      "A quarta temporada é a primeira em que não há nenhum monólogo de abertura em quaisquer episódios.",
+      "Não há nenhum membro do elenco principal que tenha aparecido em todos os episódios.",
+      "Caity Lotz e Amy Louise Pemberton são as únicas atrizes a aparecer em todas as temporadas da série.",
+    ],
+    imagens: [
+      "images/static.wikia.nocookie.net_arrow_images_c_ca_DC%27s_Legends_of_Tomorrow_first_look_promo.png",
+      "images/static.wikia.nocookie.net_arrow_images_c_c1_The_Legends_use_the_Totems_of_Zambesi_to_manifest_as_Beebo_to_take_on_Mallus.png",
+      "images/static.wikia.nocookie.net_arrow_images_7_76_John_Constantine.png",
+      "images/static.wikia.nocookie.net_arrow_images_5_59_Detroit_in_the_year_3000.png",
+      "images/static.wikia.nocookie.net_arrow_images_7_7c_Oliver_tells_Ray_to_trust_Felicity.png",
+      "images/static.wikia.nocookie.net_arrow_images_5_53_Firestorm_%28Martin_Stein%3B_in_costume%29.png",
+      "images/static.wikia.nocookie.net_arrow_images_e_ef_Martin_Stein_absorbs_energy_from_the_thermal_core.png",
+      "images/static.wikia.nocookie.net_arrow_images_2_25_Gideon_introduces_itself_to_the_team.png",
+      "images/static.wikia.nocookie.net_arrow_images_c_cd_Oliver_and_Connor_stand_over_Grant_Wilson.png",
+      "images/static.wikia.nocookie.net_arrow_images_f_f5_Legends_Snart_uses_his_Cold_gun_at_the_hole_in_the_Waverider_hull.png",
+      "images/static.wikia.nocookie.net_arrow_images_2_2b_DC%27s_Legends_of_Tomorrow_season_1_textless_poster_-_Their_Time_is_Now.png",
+      "images/static.wikia.nocookie.net_arrow_images_2_2f_Zari%2C_young_Ray%2C_and_Atom_fly_away.png",
+      "images/static.wikia.nocookie.net_arrow_images_d_d1_Helen_escapes_with_the_Legends.png",
+      "images/static.wikia.nocookie.net_arrow_images_f_f1_Fighting_the_AVA_clones.png",
+      "images/static.wikia.nocookie.net_arrow_images_0_00_Sara_and_Ava_first_kiss.png",
+    ],
+  },
 };
 
 const imageModal = new bootstrap.Modal(document.getElementById("imageModal"));
@@ -453,3 +574,26 @@ window.addEventListener("hashchange", () => setHero(window.location.hash));
 window.addEventListener("DOMContentLoaded", () =>
   setHero(window.location.hash)
 );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
