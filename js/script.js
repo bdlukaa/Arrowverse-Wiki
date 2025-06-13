@@ -8,7 +8,6 @@ if (!isUserLoggedIn()) {
 
 const heroMap = {
   "": {
-    quote: "You don't have to be perfect to be a hero.",
     quote: "Você não precisa ser perfeito para ser um herói.",
     "quote-author": "Sara Lance",
     // "main-image": "images/static1.cbrimages.com_wordpress_wp-content_uploads_2023_04_crisis-on-infinite-earths-arrowverse-poster-cropped.jpg",
@@ -396,7 +395,7 @@ Embora Kara precise encontrar uma maneira de gerenciar seu novo empoderamento co
   },
   "#lot": {
     title: "Lendas do Amanhã",
-    quote: '"Uma vez uma Lenda...""Sempre uma Lenda.".',
+    quote: '"Uma vez uma Lenda... Sempre uma Lenda."',
     "quote-author": "Sara Lance e Charlie",
     "main-image":
       "images/lot-title.png",
