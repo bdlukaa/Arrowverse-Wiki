@@ -1,3 +1,11 @@
+function isUserLoggedIn() {
+  return !!localStorage.getItem("loggedIn");
+}
+
+if (!isUserLoggedIn()) {
+  window.location.href = "login.html";
+}
+
 const heroMap = {
   "": {
     quote: "You don't have to be perfect to be a hero.",
@@ -405,7 +413,7 @@ function setHero(hash) {
       <li class="list-group-item curiosidade-item bg-body-tertiary rounded">
         <p class="mt-2 text-body-secondary">${item}</p>
       </li>`;
-    curiosidadesContainer.innerHTML += listItem ;
+    curiosidadesContainer.innerHTML += listItem;
   });
 
   const imagensContainer = document.getElementById("imagens");
