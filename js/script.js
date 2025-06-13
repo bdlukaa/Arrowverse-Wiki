@@ -377,7 +377,7 @@ function setHero(hash) {
 
   document.getElementById("sinopse").innerHTML = heroData.sinopse
     .split("\n")
-    .map((p) => `<p>${p.trim()}</p>`)
+    .map((p) => `<p class="indented-paragraph" >${p.trim()}</p>`)
     .join("");
 
   const elencoContainer = document.getElementById("elenco");
@@ -402,10 +402,10 @@ function setHero(hash) {
   curiosidadesContainer.innerHTML = "";
   heroData.curiosidades.forEach((item) => {
     const listItem = `
-      <li class="list-group-item curiosidade-item">
-        <p class="mb-1 text-body-secondary">${item}</p>
+      <li class="list-group-item curiosidade-item bg-body-tertiary rounded">
+        <p class="mt-2 text-body-secondary">${item}</p>
       </li>`;
-    curiosidadesContainer.innerHTML += listItem;
+    curiosidadesContainer.innerHTML += listItem ;
   });
 
   const imagensContainer = document.getElementById("imagens");
