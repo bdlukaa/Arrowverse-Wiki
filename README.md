@@ -14,3 +14,5 @@ Um mini wiki do Arrowverse, que descreve as suas principais séries.
 ├── index.html          # Página inicial
 └── login.html          # Página de login
 ```
+
+Figma: https://www.figma.com/design/0KAF9z4Kmr5B1mNHzLCk6h/Arrowverse-Wiki
