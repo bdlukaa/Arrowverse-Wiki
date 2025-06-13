@@ -26,6 +26,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
           "O playboy bilionário Oliver Queen retorna para casa depois de ficar preso em uma ilha deserta por cinco anos. Após seu retorno à Starling City, Oliver reacende seus relacionamentos e passa suas noites caçando criminosos ricos como um vigilante encapuzado.",
         imagem:
           "images/static.wikia.nocookie.net_arrow_images_e_ea_Fadeout_title_card.png",
+        hash: "#arrow",
       },
       {
         nome: "The Flash",
@@ -34,6 +35,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
           "Depois de testemunhar o assassinato sobrenatural de sua mãe, Barry Allen é levado pelo detetive Joe West e sua filha, Iris. Um mau funcionamento do acelerador de partículas, banhando centro da cidade com uma radiação durante uma tempestade, e Barry é atingido por um raio. Despertando depois de um coma, ele descobre que pode se mover em velocidades sobre-humanas. Barry promete usar seus dons para proteger Central City. Como o Flash, Barry também persegue o assassino de sua mãe, o Flash Reverso.",
         imagem:
           "images/static.wikia.nocookie.net_arrow_images_c_c2_The_Flash_season_6_second_half_title_card.png",
+        hash: "#flash",
       },
       {
         nome: "Supergirl",
@@ -42,6 +44,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
           'Kara Zor-El foi mandada para a Terra, de Krypton, com 13 anos de idade, pelos seus pais, Zor-El e Alura. Krypton estava explodindo, e os pais de Kara a mandaram em uma nave espacial para a Terra após seu primo. Kara foi mandada para proteger seu primo, Kal-El, mas sua nave colidiu e foi parar na Zona Fantasma, onde permaneceu por 24 anos. No tempo que a nave aterrissou na Terra, Kal-El já havia crescido e se tornado o Superman. A série começa onze anos após, onde agora Kara possui 24 anos e está aprendendo a abraçar seus poderes e adotou a alcunha super heroica de "Supergirl".',
         imagem:
           "images/static.wikia.nocookie.net_arrow_images_b_b7_Supergirl_season_4_title_card.png",
+        hash: "#supergirl",
       },
       {
         nome: "Legends of Tomorrow",
@@ -49,6 +52,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
         descricao:
           "Rip Hunter (Arthur Darvill) viaja de volta no tempo para os dias de hoje, onde ele reúne uma equipe de heróis e vilões em uma tentativa de impedir que Vandal Savage (Casper Crump) destrua o mundo e o próprio tempo. Um grupo de heróis e vilões viajantes do tempo que protegem a linha do tempo.",
         imagem: "images/lot-title-card.png",
+        hash: "#lot",
       },
       {
         nome: "Black Lightning",
@@ -57,6 +61,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
           'Jefferson Pierce, que se aposentou de sua personalidade de super-herói, Raio Negro, há nove anos, depois de ver os efeitos que isso teve em sua família, é obrigado a se tornar um vigilante novamente quando o surgimento de uma gangue local chamada "Os 100" leva ao aumento do crime e da corrupção em sua comunidade. Um ex-herói que retorna para combater o crime em Freeland.',
         imagem:
           "images/static.wikia.nocookie.net_arrow_images_c_c6_Black_Lightning_season_4_logo.png",
+        hash: "#black-lightning",
       },
       {
         nome: "Batwoman",
@@ -65,6 +70,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
           "Prima do Batman, Kate Kane assume o manto de Batwoman para proteger Gotham City. Kate Kane deve superar seus próprios demônios antes de ser capaz de proteger as ruas de Gotham como Batwoman e se tornando seu símbolo de esperança.",
         imagem:
           "images/static.wikia.nocookie.net_arrow_images_d_d1_Batwoman_Season_3_title_card.png",
+        hash: "#batwoman",
       },
     ],
     imagens: [
@@ -367,6 +373,8 @@ const imageModal = new bootstrap.Modal(document.getElementById("imageModal"));
 const modalImage = document.getElementById("modalImage");
 
 function setHero(hash) {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+
   const heroData = heroMap[hash] || heroMap[""];
   const navId = `nav-${hash.replace("#", "")}`;
 
@@ -391,8 +399,9 @@ function setHero(hash) {
   const elencoContainer = document.getElementById("elenco");
   elencoContainer.innerHTML = "";
   heroData.elenco.forEach((actor) => {
-    const cardHtml = `
-      <div class="col">
+    let card = document.createElement("div");
+    card.classList.add("col");
+    card.innerHTML = `
         <div class="card h-100 card-elenco">
           <div class="ratio ratio-16x9">
             <img src="${actor.imagem}" class="card-img-top w-100 h-100"  alt="${actor.nome}">
@@ -401,9 +410,15 @@ function setHero(hash) {
             <h5 class="card-title">${actor.nome}</h5>
             <p class="card-text text-body-secondary">${actor.personagem}</p>
           </div>
-        </div>
       </div>`;
-    elencoContainer.innerHTML += cardHtml;
+
+    if (actor.hash) {
+      card.addEventListener("click", () => {
+        window.location.hash = actor.hash;
+      });
+      card.style.cursor = "pointer";
+    }
+    elencoContainer.appendChild(card);
   });
 
   const curiosidadesContainer = document.getElementById("curiosidades");
