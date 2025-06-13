@@ -386,7 +386,9 @@ function setHero(hash) {
     const cardHtml = `
       <div class="col">
         <div class="card h-100 card-elenco">
-          <img src="${actor.imagem}" class="card-img-top" alt="${actor.nome}">
+          <div class="ratio ratio-16x9">
+            <img src="${actor.imagem}" class="card-img-top w-100 h-100"  alt="${actor.nome}">
+          </div>
           <div class="card-body">
             <h5 class="card-title">${actor.nome}</h5>
             <p class="card-text text-body-secondary">${actor.personagem}</p>
@@ -411,8 +413,9 @@ function setHero(hash) {
   heroData.imagens.forEach((imgSrc) => {
     const imageItem = document.createElement("a");
     imageItem.href = "#";
-    imageItem.className =
-      "list-group-item list-group-item-action p-0 image-list-item";
+    imageItem.style.display = "block";
+    imageItem.style.width = "100%";
+    imageItem.className = "p-0 image-list-item mb-2";
     imageItem.innerHTML = `<img src="${imgSrc}" class="img-fluid rounded" alt="Galeria">`;
     imageItem.addEventListener("click", (e) => {
       e.preventDefault();
@@ -427,4 +430,3 @@ window.addEventListener("hashchange", () => setHero(window.location.hash));
 window.addEventListener("DOMContentLoaded", () =>
   setHero(window.location.hash)
 );
-
