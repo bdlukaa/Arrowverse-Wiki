@@ -104,6 +104,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
       "Brandon Routh interpretou Ray Palmer/Átomo no Arrowverse, mas também reprisou o Superman de Superman Returns (2006) em Crisis on Infinite Earths, como o Superman do Reino do Amanhã.",
       "Quando Arrow acabou em 2020, foi como um marco simbólico — o fim do herói que começou tudo. O final de Oliver Queen também marcou o encerramento de muitos arcos do universo anterior à Crise.",
     ],
+    soundtrack: "https://www.youtube.com/playlist?list=PLaAn-nKouovV6wgf_LjAuiCfAkemUZn8V",
   },
   "#arrow": {
     title: "Arrow",
@@ -222,6 +223,7 @@ Enquanto Oliver se reconecta com seus amigos e parentes próximos, ele secretame
       "images/static.wikia.nocookie.net_arrow_images_a_a4_Team_Arrow_finds_information_about_James_Edlund.png",
       "images/funera.png",
     ],
+    soundtrack: "https://www.youtube.com/playlist?list=PLQ3N088BeSQBR4ERp1copdnVDpKlozj9F",
   },
   "#flash": {
     title: "The Flash",
@@ -298,6 +300,7 @@ Nove meses em um coma, Barry despertou e descobriu que sua vida mudou novamente 
       "images/static.wikia.nocookie.net_arrow_images_8_8a_Iris_and_Barry_wedding.png",
       "images/static.wikia.nocookie.net_arrow_images_7_7a_Team_Flash_witness_the_beginning_of_Crisis.png",
     ],
+    soundtrack: "https://www.youtube.com/watch?v=u2ytfpyMmKg&list=PLpMIPfVJ5FkVja49PSFwYxHlbaDxv7I5w",
   },
   "#supergirl": {
     title: "Supergirl",
@@ -392,6 +395,7 @@ Embora Kara precise encontrar uma maneira de gerenciar seu novo empoderamento co
       "images/static.wikia.nocookie.net_arrow_images_c_c4_A_bounty_is_made_on_Kara.png",
       "images/static.wikia.nocookie.net_arrow_images_5_58_Supergirl_saving_Snapper_from_Biomax.png",
     ],
+    soundtrack: "https://www.youtube.com/watch?v=NZpQltz72bs&list=PLcgyQl10yuArWTFHk_apvurgK5wz0s5lD"
   },
   "#lot": {
     title: "Lendas do Amanhã",
@@ -510,6 +514,7 @@ Embora Kara precise encontrar uma maneira de gerenciar seu novo empoderamento co
       "images/static.wikia.nocookie.net_arrow_images_f_f1_Fighting_the_AVA_clones.png",
       "images/static.wikia.nocookie.net_arrow_images_0_00_Sara_and_Ava_first_kiss.png",
     ],
+    soundtrack: "https://www.youtube.com/watch?v=Dq1ln46uGZI&list=PLpMIPfVJ5FkU7VlCMnVzJQ4Ts9Lk5XBea",
   },
 };
 
@@ -591,6 +596,11 @@ function setHero(hash) {
     });
     imagensContainer.appendChild(imageItem);
   });
+
+  const soundtrack = document.getElementById("soundtrack");
+  if (heroData.soundtrack) {
+    soundtrack.href = heroData.soundtrack;
+  }
 }
 
 window.addEventListener("hashchange", () => setHero(window.location.hash));
