@@ -6,7 +6,7 @@ body {
 }
 
 .login-body {
-  background: url("https://static.wikia.nocookie.net/arrow/images/7/73/Entertainment_Weekly_cover_shoot_-_Batwoman%2C_Green_Arrow%2C_The_Flash%2C_Supergirl_and_White_Canary.png/revision/latest/scale-to-width-down/1000?cb=20190718024158")
+  background: url("../images/main-image.png")
     no-repeat center center fixed;
   background-size: cover;
 }
