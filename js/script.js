@@ -3,8 +3,7 @@ const heroMap = {
     quote: "You don't have to be perfect to be a hero.",
     "quote-author": "Sara Lance",
     // "main-image": "images/static1.cbrimages.com_wordpress_wp-content_uploads_2023_04_crisis-on-infinite-earths-arrowverse-poster-cropped.jpg",
-    "main-image":
-      "images/static.wikia.nocookie.net_arrow_images_7_73_Entertainment_Weekly_cover_shoot_-_Batwoman%2C_Green_Arrow%2C_The_Flash%2C_Supergirl_and_White_Canary.png",
+    "main-image": "images/main-image.png",
     sinopse: `O "Arrowverse" é uma franquia de televisão baseada em personagens que aparecem em publicações da DC Comics. O multiverso compartilhado é semelhante ao universo DC em suas histórias em quadrinhos, que teve elementos de enredo, cenários e personagens crossover.
 \n
 A franquia começou em Arrow, baseado no personagem Arqueiro Verde, que estreou em 10 de outubro de 2012. Seguiu-se em The Flash em 2014, e na websérie animada Vixen em 2015. Matt Ryan reprisou seu papel como John Constantine da série em live-action Constantine do canal NBC de 2014 em aparições como convidado em episódio de Arrow e Legends of Tomorrow, antes de se tornar um personagem regular, na última, além de continuar as histórias da série anterior. A franquia foi expandida ainda mais em 2016, quando em janeiro de naquele ano, uma nova série intitulada Legends of Tomorrow foi lançada, estrelando personagens que originalmente apareceram em Arrow e The Flash. Mais tarde naquele ano, a série Supergirl da CBS, já tendo um crossover com The Flash, foi transferida para a The CW para sua segunda temporada, onde permaneceu desde então.
@@ -41,8 +40,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
         personagem: "Lendas do Amanhã",
         descricao:
           "Rip Hunter (Arthur Darvill) viaja de volta no tempo para os dias de hoje, onde ele reúne uma equipe de heróis e vilões em uma tentativa de impedir que Vandal Savage (Casper Crump) destrua o mundo e o próprio tempo. Um grupo de heróis e vilões viajantes do tempo que protegem a linha do tempo.",
-        imagem:
-          "images/static.wikia.nocookie.net_arrow_images_c_ce_DC%27s_Legends_of_Tomorrow_season_1_title_card.png",
+        imagem: "images/lot-title-card.png",
       },
       {
         nome: "Black Lightning",
@@ -66,13 +64,11 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
       "images/static.wikia.nocookie.net_arrow_images_7_7e_MP-Flash_vs._Arrow.png",
       "images/static.wikia.nocookie.net_arrow_images_f_fb_The_heroes_take_on_the_Dominators_in_a_final_showdown.png",
       "images/static.wikia.nocookie.net_arrow_images_8_80_MP-Heroes_Join_Forces.png",
-      "images/static.wikia.nocookie.net_arrow_images_2_29_MP-Invasion%21.png",
       "images/static.wikia.nocookie.net_arrow_images_2_27_MP-Crisis_on_Earth-X.png",
       "images/static.wikia.nocookie.net_arrow_images_1_17_MP-Elseworlds.png",
       "images/static.wikia.nocookie.net_arrow_images_d_da_MP-Crisis_on_Infinite_Earths.png",
       "images/static.wikia.nocookie.net_arrow_images_3_31_MP-Armageddon.png",
       "images/static.wikia.nocookie.net_arrow_images_0_0b_Heroes_of_the_CW_promotional.png",
-      
     ],
     curiosidades: [
       "O Arrowverse nasceu com Arrow, que foi criado como uma série mais realista e sem poderes no início — mas seu sucesso abriu as portas para um universo expandido com superpoderes, viagens no tempo e multiverso.",
@@ -91,7 +87,7 @@ Desde 2014, tem ocorrido um evento anual de crossover envolvendo muitas das sér
       "Você, Harper, Sara, o maluco de Central City, a Caçadora, eu tenho um novo cara voando pela cidade. Todos esses mascarados? Tudo começou com ele.",
     "quote-author": "Quentin Lance para Laurel Lance",
     "main-image":
-      "images/static.wikia.nocookie.net_arrow_images_0_08_Arrow_sixth_logo.png",
+      "images/static.wikia.nocookie.net_arrow_images_e_ea_Fadeout_title_card.png",
     sinopse: `
 Depois de um naufrágio, o bilionário Oliver Queen desapareceu e foi declarado morto por 5 anos antes de ser encontrado vivo em uma ilha remota no mar da China do Norte. Quando retornou para casa, em Starling City, sua devotada mãe, Moira, sua irmã, Thea, seu melhor amigo, Tommy, receberam-o em casa, mas sentiram que Oliver havia mudado depois de muitos anos fora. Enquanto Oliver esconde a verdade sobre o homem que ele se tornou, ele quer desesperadamente consertar as ações que tomou quando era um menino. Mas, particularmente, ele busca se reconciliar com sua ex-namorada, Laurel Lance.
 \n
@@ -123,8 +119,7 @@ Enquanto Oliver se reconecta com seus amigos e parentes próximos, ele secretame
         nome: "Katie Cassidy",
         personagem: "Laurel Lance - Canário Negro",
         descricao: "A ex-namorada de Oliver e uma lutadora.",
-        imagem:
-          "images/static.wikia.nocookie.net_arrow_images_4_41_Black_Canary_%28Laurel_Lance%29.png",
+        imagem: "images/laurel-lance.png",
       },
       {
         nome: "Caity Lotz",
@@ -145,8 +140,7 @@ Enquanto Oliver se reconecta com seus amigos e parentes próximos, ele secretame
         nome: "Willa Holland",
         personagem: "Thea Queen - Speedy",
         descricao: "Irmã de Oliver e uma lutadora habilidosa.",
-        imagem:
-          "images/static.wikia.nocookie.net_arrow_images_a_a5_Speedy.png",
+        imagem: "images/static.wikia.nocookie.net_arrow_images_a_a5_Speedy.png",
       },
       {
         nome: "Paul Blackthorne",
@@ -191,7 +185,6 @@ Enquanto Oliver se reconecta com seus amigos e parentes próximos, ele secretame
       "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSEhIWFRUXGRgYGBcXFxcVFhUXFRgYFxgXFxgYHSggGBolHRUXITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGxAQGy0lICUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKMBNQMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAIDBAYBBwj/xABBEAABAwIDBAgEBAQFAwUAAAABAAIRAyEEEjEFQVFxBiJhgZGxwfATMqHRI0JS4QcUgrJicpLC8RUzokNTk9Li/8QAGQEAAwEBAQAAAAAAAAAAAAAAAQIDBAAF/8QAKBEAAgICAgICAgEFAQAAAAAAAAECEQMhMUESIjJRBBNCYXGBofAj/9oADAMBAAIRAxEAPwDxMGy4d641IqoomJxXGJxC4D5JCuNC6UmhEQYQnNCbn4XXW0yTdAJI6r+kSkyjN3K0ylCeG+S4S/or0mQe/wBV2o0SeKmay45+pVXFOh7h70CMXs6rHh65iGhQ5k6VSweNMlov3J7xvULQpWtXWK+bJaQU4optJsKzTauszzkMbSVuhZPbTkKVmGSuRmlKy5hXQZWh2ZigHXNuCAUMOVeo0YMk2CDpmWnF2jWVKOZrXARN4VrCYQuHVt90Lo9IGjKBTmLEm08gNESp9J2sa55ptH6Wide29h5pNmmMoctgrp/Qe3CMDxb4oj/46i8/FLq9y1G3drVMQyHukAyBwsdwQHJbuSvTN3481KCaIxhgW3E3KE1MA5r3GmYjQdwPqtHQZY81WfT6x97mroyKsAHEbqjYPFceL2uiGNwwcBI9wUOr4VzDLT3KqaByOy2UQbqn08SDY2K7F/fYiK1RC8ae9xTHqWru97io3rjkRtbZI6KSloo3tQH7GxcKRup971FT1HMKZ2ruXqFwWQvGiSc8LiIyZVCRSCRSFTtNSQo2FOMlcB8jnPC41pOqeGQntC4S64GU2QVM0Xn3qm0xdTtbf3xXCtlho9F3L6LuHEz3easNp2HIIC3sq0237/Uqri2fiOt7gIgxnW7/AFKfWw3WKMeQTmoqwX/L/wCEp7MOFeJhsDcoaaoR/Y2jjMH2/RT08GOKu4cKxRoAn5ULM0s0rootwR3FW6OBKOYPYrjfvU3/AEyoHRE8rqUsh0W3yCKODKIYfAEorQ2W87rovhdnOb8zVJ5Cn67KWx9iB78rjlEbtSjOJ6M02DNNr81ao1HAQBCdUqPIuJASebG/TFLgzh2UMpLagnc2DJ7FRZsatUN+qO1abEYk8AO5UjiYJkqsZshPDHsEbX2YylhxABeX3PZldbyQAMlv9K022nZqPE5v9rkBYzq9x8ig2bfx0lBJDKTZDufoqbx1z73NRWlSs/mhVUZXOHb6NXRLMq1hbx8iquIb5K7U08fIqvWb6qiEKdSg0iCFRNNzSQ24H7IuadlWy3PvcE6YtlH4oOtimvU2MoTHP0Kqva5vaEwUkx1LROK5SaYmLapQeCAzGfD0XSPm5JxJ3hI/m5LjrIuCSTBZJENlQJFIJFTLjqQU0KOhqpkxOT2dITmhIpzQuEOUxfw81O0X98Qo6Qv77VZa2/h5hKzianTMHu8ZCvUadh3JlAa8x5hXKLbBKxL2U2s639X+5y0WE2H8USLd0oM1vX/qH9zl690NwbfgMnUj7pZZPDZHNjeRJJ9mBxHQh8SHDvsqI6H1ZiBHML1radHcAhdPBDglWdtEXiadJsyGF6FgizzPaJCIUeiFVgkQVoNp41uFpZoBebMHE8T2D7DesdhsRU634juuZeJIDjMy7cTKX9kmOsC7DNLZddqt0sI4a6qTovjcn4dT/tnj+QnfPDj48ye3ekeAwhy4jEsa79Amo8c2sBLe+FNzb0VjhrgjwbI1RCk8bgqWxOlOzsU7JRxNMvNgx4NNxPBoqAZu6VqGYBvBTdl1CgU6mDuTDgmnsWgGEbwSODbwXKxnEzFbZt7C3ah2I2QXEfZbU4Rqjdg27gnUmSljs836RbI+FSDidXR/4uPos7SZb+lb3p7TIoNn9f8AsesNQZI/p9Cqp2gwSjpEtFl3c0GxtOXGPdmo9Rp2cO1BMa2Hu97mIxKMH1qdh3+RUNZquVxbvPkVBWb5FUQhXiyrRc8/QK9lsqobc8/QKiFKtfdz9Cq9cK3iW6c/QqriGpkA7hvkHcmb0/Cnqpu9AYjraHuUI1PJTVtD3KEa9y4KOBJcJXEwaKg0SKQSKQuSUNVPv8PRV6Gqnn08wiTnySkLrQmynNQJklBvW99quNbcc/UKnQN/DzKu03XHMeYQOYSoUxB5jzCtUBZqgo6d48wrdEiGpWIiCmzr/wBX+5y9X6Ouy0GX3eC8tw464/z/AO5y0lLpm3Dfh/DLy224Ad518FLJFvgDZ6IMM5+pj7K0zBMa0mYDQS4nQACST2LG7N6c06zesRTM3a4x4HeFB0j6Sl9M4eiW5XRnc02I1yCNd09lt5UPCXAU0BNqYs4isahnKbMB/KwaDs1k9pKno0JNxvv4qvRGm+B9z6ojQVJHIyHTfpC+i44Wg7KYBe8fMMwkMad1rk63WHoYUuNzrvRDGO+LiqznXl7texxAHcAAvQuieAploDmtItaAmtQRsxwvSPNKuzHfla6O0EL03+E3T6tTrswGLeX06hyUnvJLqbzZrC43LCeqBuJG5bd2GZkggC1hut2LzLp7s3IWYimMr2GZFus0yDzslWRTdUPLHUbs+iwlmQ3BbS+JTY/9bWu/1AH1UNWrBkG6jLIuiIZUNVwAJNhx0hVNsbZp4fDPxNQ9RgmBqXGwYP8AEXEN714HtXGYvadUvxFSGT1aQJ+HTG4BmhP+I3PgBTx7Z1XpHqf8QsQx2Hblc10VBoQfyP4LC4SoA0/5T5INU6FuY34lN8EbwMp8Qp9m1XnNSePxGtOmjgQYcPCI+6eLi1SYs8co7D+GeOsRvJ+iG4ykC53f5MU+Fa6DrqfNVHE5nGLfs37JkhLB1flx8ioa+/v8lNipPvsIVfEmxVEKRtNlVPzOHvQKcAxdVnAyT70CdAI8RoOfoVUxJViuCY5+hVPEJ0AWE+VP3puE+X3xTzqh2MyKoLFV3NurdTQ8lVdqEUchoou7PFJWKmqSIfIFBdKQ0SKQ0CY6FIKx4LlEXU+W/h6IiSasa2ueCf8AHPDzVllIKenREJbJ2UWYpw3KxS2i8H5R9fuoG1JcQ2ANZ7Bw8VPhpDmkgluoJBuAbwd67QWXqO2ag/IPA/dT/wDXKlvwx4O+6vNwzSy2+I5EhXKWFblbbQeiFr6Jg/Z+1nvqsa5oALxJvZDtr7RaazywZgXWI3wAJHG4Um2MQKbHBvzEm4tlu76kLSfw72YwtBewEmLkA9ySclHaKY8flyZvZuMm722kAkTLSbjM08YNxwWvw+EIa19iw6EaTrB4HfBR/pR0cpl9NzW5fiAtNhEj5bf5i3xPFDujdAmgwRLus14vduYxI/MBpxFiOBi8lnTxpcDWRH/Kkpv9wpsRs1lN0Oe0HgXQVK3ZzbOBDgd7ST58j4IMjZ5HjWGniKwEGKjjOoDSSQTHYQtX0e6RVMO9ratCabnZQ8S0gjLMtdf8w8VSxlJlDG1WES1247gbgcoIVnpCWtpsyCANIGm+bclR09M2wvlGx2/tfFUamWlSa+n+uJcQSNAXiT1gIjtQXpHTrV8PIYSTUa1sAjM4uDMsHmezSFs+j2Kp1QADnADYcWECCLHrC4J3jgnbcdmdTYBIzggDiwF1vBZ1KmtFnFttXoK7LxAFGkAZDWNb/pGU/VpVj4snVKlRphoEaa+p8SpjQZF/NQ8HZlclejF/xKxbv5RtMaGuwu5BlTXvy+AWb2DUo2c6oGX1h0d5AgeK0n8SsK34Ae1xsdOMxa3LX7rI4LD0G4erVm5EQd7joBwvv+6vXokyuFvbRrtobQpNilnBJEgZXmREg5tPErD7ffUzNqUZa64Mfp1PktlhMNRrNptfkcWsYQQQ6A0DXhBA70Kxop/FdTaIa2m8ACImRE8R9kISqSZWcfVoyOHxGMc0EOdE2knW/wC6Y/E4qS3M6Rrfl9wtnhKLWsiLyfqVSr0RncfejFuWRfR5rTMhXq4gauN+1RudX3k+K0e0KYgc/QqpiAIPDinUv6HAJtWuRIJ8Ux1WtMSZRJ9ZtNsm9wABvKqU8TUeSWUHO5S4RpqB2IuaQyi3wipUdVGpPion595RGnXbUbpBBuDqDBTcU2yZOwNtckWFPUHI+ZXZum0DDCTu+6qtxcm0DmdUG0hqb4LjzY8iqrtylp1swPf2hMcLBcgcErxfvKS7U9SkicgSNEikNEiEnRpJsDQc90NBPYN/ATu/ZacdH6op530C1oN7SY42NojghfRxr/iDI2XHKQCYBEkEnsnfzXqlPHVqmFZloS2ox+Z2YEMiW9+88gs05tPR3ipcnmTqGVxbMxodxBuD9V11IljgNSHIttbChoYIHVAbI3wB+5B3ghUqYsnUrVmfhkvQPZdKoS6o3PF8pEttOoOpHatvj9n0K4+E0tDwLBonKY4bxuMWXnuDpltR2V7mky5oDi2TfWNRN45L1TYu1KNQCo0QXtBc6C2XQOPvRZ8tqVmyLTiYmlgn0qbGvidOWV8QeJFl2vUimCNwJ8AjPSgyARoHnjbMWkeTlnMVVinpJg/VWhLyjZlnGpUZvaYJp0tesXEk73Ei57Y+hC1/RmhVZiMOJAl4ADS6XM1OYTBsDeJWLxdVxa2bRAa39Ag/UkzK12xsSCaMsDjnm7soGVsifHSLrp3RfEr0bTb2yK38y2pTLcj5IBmc2rQCdOsEsADSfUI+QPzN3ZW1BNjuMhxvbrXRvEYwHCl3w3UshaQHR+UyCwgmRZA+je1xWdVpVQJJJB0s4zHOT9QNQActvs7JHQ3b7c7s86GJIgwdx4wdDwcEsEWxEweRv4K9tPAwDfX6EH9yoKWHAHDt9hXg7iYpqmZP+JVAAUKwjMC5hNpMgOYDvI6r4nihWDJqNplxDpMAEkBoGhMC8oh0721RNL+WY74lR5aS4Hq0wCHCTvJiI3T3HG4Paj6Jyu9jfCpWjThbS2eu7FZIzsc0G92mo0yb6VAcw8O9EsFVD67S4iQHHW2mU/3fVef4DpfUqt+FRpOPVi1gCbSTuWmNN2Fw/wAZ0OqOczOewuAyt4AAmO26zuDT2XnO4uvo2NWuBx7pPlKjp7SEGxaRx3/dCaW1WEAspl2/X7AXRR7xkLyWsETdxcf9IEnlqu8WeepAjbR+LTe0nUGzgeH07+C8twmKI6uotYidTey3O2eluHo/Kx9RxERZrdN5N9VgMPhHVhmp6jUaEc+Cqo0vYthbvRvGY2q2nmy5WxM5Mo7ocfLehGAqZnOdP5SJ7Yk+iq4bBYmo0CpWhuhaPVSYXE021X0JghpifzSNx4yEkEvI05W/AMUndUnfPv32qo93WPvc1TU327yq5PWMe7NVUYmynjhb3wVCs7WeHvzRPGNt4+RQzEt15FViwADaNbNUAMwLCN5IEr0XoniaeHptpGm7MQ3MQ20OgBxJtF+PcvNPin4nET5GZHgvRNkbT+JhXURmeZAGWM4AIOjuEKGXZtxLRkuktVoxlR1MENdBIIy3BLHEDumVBiQp+mmO+LWA0+G3KRbMXG5FrcB4qm2pLBxj6rRi4ozZ1uyGrSJo2435AyT3LUdE61Gk0CpAjWWk6nUwDa+qA4Nx+GYANyL31j7rUbAxA/l3NtmghriCYDu0AlLm5K4SLpxQw4I+CKYe0w8MABGZhIzR3LGmVsumFdpZSZDc8EucN8DLqQCdeG5Y/wDKnw/ETL8iet90l2qF1UIgYaJzdD3JoFgnAwFN8GphehW+HkeHgG4JEiQ+OqLQ0AQOZIW4dtN1HZgZEOqD4dMCoHkh8kzlAAygm+pssFQflaGuaHGJIG4TNzccPABbF+Iw9bDtZTzhzAXQGFxYMxMiLZQHgGSIgLJJWHySIcbhS2i1j3S6mAG2/KI6rjqIzWB0mLaAfRZZE9qbRNcAwAdXRvcABm7TY3/4VNgACeClGOzM5xk/Uo4jDF8gGHbj2ydexW9ibfdTY6iab3PFrQGNg2Lj77EqN3Hu8yqGL2mxj3Bgl8AEjSQQYPG3kO1M1ZTHKnRu8XiaNHDA13B2bUDVzrWaNbWv32QHZmzjVY55IY1rSQHdYwJImIvohGDoOrh2IquLg0hs/p004C6OY4E0Pw/lcWzyA/ZTrw1eyrqW6MjtANzOHCJP+USYHf8ART9F+kBoVOtT+I0zYa35qars9poPv1xMniRD3DwMf0qns3Zjyz4o0HV0uXExA5fZU00JGXibHbnTh2KDKNOkaTBrJkk6WA3BFdiYUOdMQHPAnTg2Ldyx2Cw5ObSWkCBGsttbWxWiqbdZh6YoGCeqSGnQg5hJ3H63UZQ6R0p9m7r0HNzNfdoAMg6jdfuN15/0y6SNLTRokZfzEOJzf4QdC3eSNeWtfavS+rWaWaMIgtH5hwcTr9FlK4a8zlHKyrih4LZllJSkDHO62YrcbF2JSxTM0ZiL239hWNq0ROkcreSn2Xj6uHfno1HMIvY2MbnDRw7Cnkm+DXCaR6/sPZFCkQG0spWc6ebczVW0GHq0zmceL9AOQk957Fa2504pPoNdQmnWczrAB34bnCCA4iJsSOyCvO8NBgnUuLp11M+gUowd+Ug/kZEoUjb7K23Vp3pm+lzHeLGOapbT23WJOdxM7zv8LShNPEXspcTXlsj391eOjy4zp7BGLqZjzUGDxFRropuLXflI1k7uTuHGFPVDTujlp4KvUw3VLg5pAgakG/ZHZxTOmbMbSNX0b6TtqH4ddoD46r2iM5G4jigXSPGA1y5ouBlHARMnnJ+iEgEEEW9DuKlxwJdmP5mhw5H3CmsaUrRpc7VMJ4fpLUYRaW2kG9oE3gc0XwvSCkbkEE9sju8FkA1LQ++CpS7IOCfBvziG1GgtM/8ABVDHOA6u82H3We2fjjTcCJjf2jej2L61VsHgQd28/WyVqmTqgJtHZj6ZFRwDqRMyLtBO4xcfdVsNVLi5zC5jwDcOIsATeDPyjxC3GJAdTYCzqVXhpmTOYExIAuImO+EExuyQyWkFrgRwPeNAZHmEtWWjkSWzM06gkOdJN54knnrv8UQccrJ93UWOwTabmua5r2OJiDcER1XCxBuNeKoV67nfMe7QDuTRdbDOHloK4EZuqHCxzRx0nyWr2XsuuHh9MtaD8wcMzTyHFYbY1Rra9MvnLmGaDBg2MeK9O2vt9lDCipILuswNBuajbOB5HX9wkytuimKPjaZl9sua91R7nABri0ECBDYFhwmfFZ3MNxkT7tuRV7iaTmE60Xndch1MyeJ6p8Vnw0qylWiEY3cm+Qw4JKLD1cwB7PuknJvWgUN0d/Ps7k57rLjTZccyDfjHf9lLo1dhLYYYXEOAJIlvCZAgnc28nkF6L/D3aOFpudmdke6GkObDQ0cHyYO8zAsBz8xw74gRI1OuvZCMYLGEH9t+l0ixqWmQy5JQ3E9J6WYDChr6jSGVJgNZH4hm5Ldw35vPReW7TxOarkd8rdx3kiZ8DCOfz5IAgWEWHEk38VnOkLgagcBEtueMW9An8PCK3ZHDkeTI/Wtf7LdOplhzDHZeHdhjzQssIJtvPb9d6hp1yCJK1ezcbSe3K5oA0j8qEp1ujVDG1psGYPbDqVOpSF2VQA7sI0I8j2clrdn7QY2i1jojJLuO+AO3go6XRfD1es0dwJH0lR9INjUsPQLmuLSSGtkl0kggiDf5cyhOUZPRWMXFAbaOO/DIbq43O/rak7tLRuDvGLZ7H1GNpgkU2hznXiSGuqXi8nTwVDFG2UuhotAnWdT91f2JiqdJxl8i9j8txAvv1HbZPVR0SLW0SaNAkdUy0QJGbXQA2EXHes8HHdpuVvb+0RUDWt0BmdJgQI8TfeqOCdPV36j7IxTS2dJasutqRHge9WmNsShpd1gDo6PEK66oCOflx8AAizLOJA+5J4W7zf7JgZf373J1C8niT5qVzYcPe+PUojXWiJ1Q5C3dObvgj0UrBEdg+37pjx1T3+TlLTbLR2geSaR03pDqBsCpDVuR3pNZ9Eyqy4PMeKVEdNld7vNR1nQI92/5+i7VsRz+6irC08fT95PemRoii3s3Zb8RmbTjM0AwZEieztjxRip0UrvyA5W5W5SbneTYQNyk/htPx3uAB/CIM21eyP7SvQa7iBL3sYPFQy5ZRlSNmPHFq2YCn0JfvreDP/2gG3dkVMNUAfBaflcNDGttxXpGIxpN6TXOG5xbDT2ideYCH7SwLsUwMqiLgyJkRpFoFvNJHNK/Yd4o9HnYKNbDxUvYDGYWE7wBbwVTbuxnYarkJkEZmu/ULjxBHuVSaSCCCQRcEagjfPFa9SVmSUa0bTbAy02OJJl4JBFt4N+Mbu095LENbUYDkzEhhDpvpmPIAE9kQVn8ZiDVwjHEy7MAYAF59dYA3o44AMAa4yNZ3gADMQOUR/i7wERYA/lWmpUa8AtgTBBAD7gyO3fxWZ2ph8lQj2TJBI7wVpdpkMdTqhpg0i05Tm0MT9QY3Hegu2SHtbUH6iNI1k38D9U0uB8TqQPw7JcBvLgBzlWNtVAazyDZxzxwNQB7h4mO5c2OJr0gd9Wn4ZgmbUZD+4fQR6JDRftQSpkuYDP/AKFQ/wCl2U/2oSTZGse74OVuXXD/AA7Wh5ILybcSUEciJBprRPhK+We5JViF1FM5wTdktbDuYG5hGZocDuIIt5pj22uj+CxFPEUW0KhyuaAGO4ECPDsVDGbJqteKeXMXHqltw6eB3ds6IRl0x2UcO5F8LyV6t0YFJgzFznn9MQDGjWES/wAQeA4j8NoBOsJoOzN+REvVX2EcIPiT6oZi4NRocJaG+p+yJ4HBOrODWEA3PWJiBHAHihW0WkQSNJaey/8AyhN2xPx1QOxBlxPG45J1GqWmW+G4ptV0lJrClS0bGwzgNuuYbEt8kU2rtluKpNYXAPa4ETp2++xZluGKv7HwGZ/ce4xA80HjXIjyIE1nSUqa4Wp1MKiQz4G4g3CayRcLlQyU4nqx2pXtsbhUWsUQWNcOPgd4+o+iRf2+HbA9FFhhLXDgWnz99yThPK3v6pCXjWi7hnN8N6mqxrO77H0VQVBYN996uU6JIjNHOSmpshKO7E+lY+kHUO8VJQpkU2X3DuV+iIBmCIpz3PdP9xUZYzL8rRfh8303J/GycnpL/uyOnREfNPcRPKfVNqCETq7Op/DDm0nsJiH03ktF4cCD9JFp3oJWxJaS0kPba8ZT4aFI4tCKNvRRxT7nwHM/sCpMk0if0mPX1UGLcCWx2+g9FcwTz8KoziWnwsjA1S1FMm6O7a/l85AlzsoFrACf/t9Fp9m4sVT8R9Vj3bmkkNby1k9pHKFhKbYcR7srbKTfhPcLODmQRYwZB8kksd7NCyVo9Obj6g/9LOOLXNd9LH6Kzh9uU/zNcw9rS3zXleF2nXpgFryewz7KKYbpa90NvmNgoywtFVkTC38S8SyoMO9rpj4gIJ45CPIrDyim3a9asWyww2Y0/NH2CHU8FVmCwibSdB2lXx+saZGbi3aZodhXw5aRY1Z33y5CRrp74o6MTmNQ6CLETJDRNgLRvk6TbRVaOFa2hkZo2JOlydTHG/h3K7haMsd1RBA3zIsBAt1ZHDU9qa9mVu2B9v04p0jcR1b31Gt/8p1WcxR/BI4P+kkLUbfqD+XEtObOIcXOOYZTAgwABBP9ULK4p0sPYR9TPqm6GhyiLZDXfEa5mrCH3/wkEc7wrW1KbRXph9mkMzdjSTP0Xej1Ih+ci0EA7t0qltTE/EqOcNLAf5WgNHKwnvQa9SqbeV/SQV6TA/EvrflMuBhBHItVqmvRDtXs6ruJ/S7vi/bJQp5sjJ3sGJeK8fo6wWXE4mAFxKU2KkNCjuD6SVKVMjKHHQEzbnxQWkLBLEDqotJoF7Lf/U6lRxc4jMdXNaGlw4HLAMWgxIjVWsPu5+qD4Yoxh3J4JUQ/IsOdFzFdvaHD6T6Ift7q16rS0RmP/l1vVdwNbJVa7gfOx81a6YUvxhUGlRrXd46p8h4qc17i43/5/wCTL4512wIAnTuTaJ9+yu40XHeuUG3iUUXXwCFC8fYons12WoCL7tQRfl2wm4DDNgAi/HRXqmEAu0kEbwfYKLkqoz1sym0GRVqCPzu/uKgFkS28B/MVI0JB/wBTQ71Q2roVy+zStlcKfEAZWqOhTJNgTyEqxj5tP2SrgZv2SK1N0HT37C5nJUtVsBvIe/qoBqg1TGW9lvNDe1Tsqki7tFTLlaoCSEyIzVItU6hNhpppG9v3Rmjgas5Xta0QDd4FjJEFV6NMBhtoBw/92nw9Ueg1vz5RlAOZucSBclxuFRGTJJaIq+znUGk0qzcrm9frZw10yAI1NgsdtB5klxkla7F4U0n5nClUab9Vwa4duUxKye0R1tIHKEsuBsL9iniPyncA36j7gnvVvA1ImdCB9Coq9PqF3+T+0fuu4emSy3mBpzSrk0SpwIH1evIV/DNzB7eLSRzaZHqhDtUX2U78Rvf9QQuTGnGkqIRuURaWvDxqCD4J40CbUdeOKZiq7CpxzuxS/wAyXCDCqhvUaeX0Cnohc0qM7ew9h6wyXLRMi5DTfkewG/1TWbcpNJa9rrciDAifDn6IAxhcYAJJ0i5KY5hDiDII1BBBHcUqQeSztraDapbkJIbJkzeSBpugDRB3XJaTGYCLb81vNT4mmOHqqbm3Ecf3HkmrReKCu1qwpUxTZq4RyboT36eKABG9pUadR1qnXDRqeo4QDAP5XXMg70K+BxPuEr27HxxUI0x+zKkVANz+oeTtD3GD3Jr2kuLYvJt36KXD0WiXOJJGjRMkxqToBfnZEcfQpvYKrCPiQ0PbYZiBBdHEkSYtdDaGdXYOo0AZnckpmMLdNTqeJ9lJUUSTk+mVqWg7vRKuer4JJJeh+yKhqi2HXUk0CX5Bb481f2uZwmHcbmXCeyBb6JJJcnRHB2ZrF7u9MwYukklNC+Bqdn+/BWa5uB2BJJcSM1tn/vP/AKf7WoXiNEkk38S8OTuFMaW81zFOJieCSSXof+Y+tp3qqEkkcnIYcEgVzCFJJdHkTJwEmvJab8P7mo3s2q6QJMae/BJJUR5+ThBXpbhGMYxzWwSDJuZt2rCbQPvvXEkr4Gw/M48fgu7vRVaPypJJTXH4v+5DXCu7KPXby/2uSSXLko/iJosE2ICSSciXqH/bHM+qmpLqS4hL5BfoT89Tsa3zKd0qYBVBAuWgntMkeQC4koL5mpfAzeL17gqlTRJJaFwwRFQFlKNffBJJd0CXLEBdOyiR73JJLhezr/U+i4kkmCf/2Q==",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Ow86VziGjBnUT44NWhIDt9kPcJstgIEPMa_BG3CZpz4yV03NpaJoKMik-QrNzmJOwAg&usqp=CAU",
       "data:image/jpeg;base64,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",
-      "images/static.wikia.nocookie.net_arrow_images_4_41_Black_Canary_%28Laurel_Lance%29.png",
       "images/static.wikia.nocookie.net_arrow_images_b_b6_White_Canary.png",
     ],
   },
@@ -201,7 +194,7 @@ Enquanto Oliver se reconecta com seus amigos e parentes próximos, ele secretame
       "Pra entender o que vou falar, você precisa fazer uma coisinha antes. Você tem que acreditar no impossível. Você pode fazer isso? Ótimo. Vê essa mancha vermelha? Sou eu. Essa também! Eu de novo. Meu nome é Barry Allen, eu sou o homem mais rápido do mundo. A minha história é bem simples: eu corri a minha vida toda...",
     "quote-author": "Barry Allen",
     "main-image":
-      "images/static.wikia.nocookie.net_arrow_images_e_e4_The_Flash_second_logo.png",
+      "images/static.wikia.nocookie.net_arrow_images_c_c2_The_Flash_season_6_second_half_title_card.png",
     sinopse: `Barry Allen tinha 11 anos quando sua mãe foi morta em um acidente bizarro e aterrorizante, onde seu pai foi falsamente acusado por seu assassinato. Com sua vida mudada, Barry foi criado pelo Detetive Joe West, o pai da melhor amiga de Barry, Iris. Agora, Barry se tornou um brilhante cientista forense assistente, cuja determinação de descobrir a verdade sobre a estranha morte de sua mãe o leva a acompanhar cada lenda urbana inexplicável e avanço científico que aparece. A obsessão recente de Barry é um acelerador de partículas, criado pelo visionário Harrison Wells e seu time dos Laboratórios S.T.A.R., que afirmam que esta invenção trará avanços inimagináveis no poder e na medicina. Porém, algo dá terrivelmente errado durante o teste público, e quando a explosão devastadora causa uma tempestade, diversas vidas são perdidas e Barry é atingido por um raio.
 \n
 Nove meses em um coma, Barry despertou e descobriu que sua vida mudou novamente - o acidente lhe deu o poder de super-velocidade, permitindo-o se mover por Central City como seu protetor. Apesar de estar inicialmente animado com seus poderes, Barry fica chocado ao descobrir que ele não é o único "meta-humano" que foi criado na explosão do acelerador - e nem todos estão usando seus poderes para o bem. Nos meses seguintes, a cidade viu um aumento acentuado de pessoas desaparecidas, mortes inexplicáveis e outros fenômenos estranhos. Barry agora tem um novo propósito - usar seu dom de velocidade para proteger os inocentes, sem nunca desistir de sua busca para resolver o assassinato de sua mãe e limpar o nome de seu pai. Por enquanto, apenas alguns amigos próximos e associados sabem que Barry é literalmente o homem mais rápido vivo, mas não demorará muito para que o mundo descubra o que Barry Allen se tornou o Flash.`,
@@ -210,8 +203,7 @@ Nove meses em um coma, Barry despertou e descobriu que sua vida mudou novamente 
         nome: "Grant Gustin",
         personagem: "Barry Allen – The Flash",
         descricao: "O cientista forense que se torna o velocista escarlate.",
-        imagem:
-          "https://static.wikia.nocookie.net/arrow/images/7/74/Flash.png",
+        imagem: "images/grant-gustin.png",
       },
       {
         nome: "Candice Patton",
@@ -231,22 +223,20 @@ Nove meses em um coma, Barry despertou e descobriu que sua vida mudou novamente 
         nome: "Carlos Valdes",
         personagem: "Cisco Ramon – Vibe / Mecha‑Vibe",
         descricao: "Engenheiro do Team Flash com poderes de vibração.",
-        imagem:
-          "https://static.wikia.nocookie.net/arrow/images/4/49/Cisco_revela_seus_poderes_a_Kamilla.png",
+        imagem: "images/vibe.png",
       },
       {
         nome: "Tom Cavanagh",
         personagem: "Harrison Wells / Eobard Thawne (Reverse‑Flash)",
         descricao: "Gênio do S.T.A.R. Labs e, às vezes, inimigo.",
-        imagem:
-          "images/static.wikia.nocookie.net_arrow_images_e_e7_Eobard_Thawne_%28Harrison_Wells%29.png",
+        imagem: "images/tom-cavanagh.png",
       },
       {
         nome: "Jesse L. Martin",
         personagem: "Joe West",
         descricao: "Pai adotivo de Barry e detetive da polícia.",
         imagem:
-          "images/static.wikia.nocookie.net_arrow_images_e_e7_Eobard_Thawne_%28Harrison_Wells%29.png",
+          "images/static.wikia.nocookie.net_arrow_images_d_dd_Joe_West.png",
       },
       {
         nome: "Keiynan Lonsdale",
@@ -264,14 +254,9 @@ Nove meses em um coma, Barry despertou e descobriu que sua vida mudou novamente 
       "É a série mais longa do Arrowverse, com 9 temporadas.",
     ],
     imagens: [
-      "https://static.wikia.nocookie.net/arrow/images/3/3e/Barry_sozinho_em_uma_rua.png",
-      "https://static.wikia.nocookie.net/arrow/images/c/cc/Ondas_vermelhas_percorrem_Barry_Allen.png",
-      "https://static.wikia.nocookie.net/arrow/images/3/3f/Barry_correndo_do_disparo_da_arma_de_gelo_de_Snart.png",
-      "https://static.wikia.nocookie.net/arrow/images/4/41/Flash_usando_seus_poderes_contra_Farooq.png",
-      "https://static.wikia.nocookie.net/arrow/images/1/1e/O_Flash_correndo_em_um_banco.png",
-      "https://static.wikia.nocookie.net/arrow/images/9/93/Vibro%2C_Kid_Flash_e_Joe_confrontando_Samuroid.png",
-      "images/static.wikia.nocookie.net_arrow_images_2_26_The_Flash_%28Earth-90%29.png",
-      "images/static.wikia.nocookie.net_arrow_images_3_3f_Photograph_of_Barry_Allen%27s_team.png",
+      "images/static.wikia.nocookie.net_arrow_images_7_7a_Team_Flash_witness_the_beginning_of_Crisis.png",
+      "images/team-flash-s1.png",
+      "images/flash-e90.png",
     ],
   },
   "#supergirl": {
@@ -280,7 +265,7 @@ Nove meses em um coma, Barry despertou e descobriu que sua vida mudou novamente 
       "Eu fui enviada aqui pra proteger o meu primo. No fim das contas, ele não precisou da minha proteção. Mas existe um planeta cheio de gente que precisa. A Terra não tem mais só um herói. Agora, ela tem a mim. Agora, ela tem a Supergirl.",
     "quote-author": "Kara Danvers",
     "main-image":
-      "https://static.wikia.nocookie.net/arrow/images/8/8e/Title_card_%28Supergirl%2C_T4%29.png",
+      "images/static.wikia.nocookie.net_arrow_images_b_b7_Supergirl_season_4_title_card.png",
     sinopse: `Kara Zor-El, a prima do Superman, que depois de 12 escondendo seus poderes na Terra, finalmente decidiu abraçar suas habilidades sobre-humanas e a heroína que estava destinada a ser. Uma jovem Kara escapou do condenado planeta Krypton com a ajuda de seus pais, ao mesmo tempo que o bebê Kal-El. Protegida e criada na Terra por sua família adotiva, os Danvers, Kara cresceu nas sombras de sua irmã adotiva, Alex, e aprendeu a esconder os poderes fenomenais que compartilha com seu famoso primo para manter sua identidade um segredo. 25 anos depois, Kara vive em National City, onde trabalha como assistente para Cat Grant, que contratou o fotografo do Planeta Diário, Jimmy Olsen, como o novo diretor de arte. Porém, os dias de esconder sua identidade são deixadas para trás quando Hank Henshaw, o diretor de uma agência secreta na qual sua irmã trabalha, recruta a ajuda de Kara para ajudá-los a proteger os habitantes de National City de ameaças sinistras.
 \n
 Embora Kara precise encontrar uma maneira de gerenciar seu novo empoderamento com seus relacionamentos humanos, seu coração dispara enquanto ela sobe aos céus como Supergirl para lutar contra o crime.
@@ -298,21 +283,20 @@ Embora Kara precise encontrar uma maneira de gerenciar seu novo empoderamento co
         personagem: "Alex Danvers",
         descricao: "Irmã adotiva de Kara e agente da DEO.",
         imagem:
-          "https://static.wikia.nocookie.net/arrow/images/2/25/Alex_questionando_Hank.png",
+          "images/static.wikia.nocookie.net_arrow_images_5_5c_Alex_Danvers.png",
       },
       {
         nome: "David Harewood",
         personagem: "J'onn J'onzz / Caçador de Marte",
         descricao: "Alienígena marciano e diretor da DEO.",
-        imagem:
-          "https://static.wikia.nocookie.net/arrow/images/c/cc/Ca%C3%A7ador_de_Marte.png",
+        imagem: "images/hank_henshaw.png",
       },
       {
         nome: "Mehcad Brooks",
         personagem: "James Olsen / Guardião",
         descricao: "Fotógrafo e amigo de Kara, que se torna o herói Guardião.",
         imagem:
-          "https://static.wikia.nocookie.net/arrow/images/a/ad/Guardi%C3%A3o.png",
+          "images/static.wikia.nocookie.net_arrow_images_d_d4_James_Olsen.png",
       },
       {
         nome: "Jeremy Jordan",
@@ -326,28 +310,20 @@ Embora Kara precise encontrar uma maneira de gerenciar seu novo empoderamento co
         personagem: "Lena Luthor",
         descricao: "Irmã de Lex Luthor e aliada de Kara.",
         imagem:
-          "https://static.wikia.nocookie.net/arrow/images/5/53/Lena_sendo_entrevistada_por_Kara_e_Clark.png",
+          "images/static.wikia.nocookie.net_arrow_images_6_67_Lena_Luthor.png",
       },
       {
         nome: "Chris Wood",
         personagem: "Mon-El",
         descricao: "Príncipe de Daxam e interesse amoroso de Kara.",
-        imagem:
-          "https://static.wikia.nocookie.net/arrow/images/e/ea/Alter_ego_de_Mon-El.png",
+        imagem: "images/monel.png",
       },
       {
         nome: "Nicole Maines",
         personagem: "Nia Nal / Sonhadora",
         descricao: "Jornalista e heroína com poderes de prever o futuro.",
         imagem:
-          "https://static.wikia.nocookie.net/arrow/images/0/0a/Sonhadora_infectada_pelos_Fantasmas.png",
-      },
-      {
-        nome: "Odette Annable",
-        personagem: "Samantha Arias / Reign",
-        descricao: "Mãe e vilã kryptoniana, antagonista da terceira temporada.",
-        imagem:
-          "https://static.wikia.nocookie.net/arrow/images/8/84/R%C3%A9gia.png",
+          "images/static.wikia.nocookie.net_arrow_images_2_29_Dreamer.png",
       },
       {
         nome: "Calista Flockhart",
@@ -365,15 +341,14 @@ Embora Kara precise encontrar uma maneira de gerenciar seu novo empoderamento co
     ],
     imagens: [
       "images/static.wikia.nocookie.net_arrow_images_2_29_Supergirl.png",
-      "https://static.wikia.nocookie.net/arrow/images/e/e9/Nia_e_Kelly_ajudando_na_evacuacao.png",
       "images/static.wikia.nocookie.net_arrow_images_e_ef_Kara_in_her_pod_preparing_to_be_rocketed_away_from_Krypton.png",
       "images/static.wikia.nocookie.net_arrow_images_c_c7_Supergirl_after_defeating_Vartox.png",
       "images/static.wikia.nocookie.net_arrow_images_c_c3_Supergirl_angrily_firing_a_blast_of_heat_vision_at_Red_Tornado.png",
       "images/static.wikia.nocookie.net_arrow_images_8_89_Kara_inspects_her_carving.png",
       "images/static.wikia.nocookie.net_arrow_images_f_f1_Supergirl_teases_Superman.png",
       "images/static.wikia.nocookie.net_arrow_images_e_e0_Crossfire.png",
-      "images/static.wikia.nocookie.net_arrow_images_0_06_Mon-El%2C_Supergirl_and_Guardian.png",
-      "images/static.wikia.nocookie.net_arrow_images_a_a0_Kara_and_Barry_tap_dance.png",
+      "images/monel_sg_guardian.png",
+      "images/tap-dance.png",
       "images/static.wikia.nocookie.net_arrow_images_c_c4_A_bounty_is_made_on_Kara.png",
       "images/static.wikia.nocookie.net_arrow_images_5_58_Supergirl_saving_Snapper_from_Biomax.png",
     ],
@@ -452,56 +427,4 @@ window.addEventListener("hashchange", () => setHero(window.location.hash));
 window.addEventListener("DOMContentLoaded", () =>
   setHero(window.location.hash)
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
